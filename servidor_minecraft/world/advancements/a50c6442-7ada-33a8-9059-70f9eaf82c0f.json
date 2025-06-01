@@ -14,6 +14,8 @@
       "minecraft:taiga": "2025-06-01 02:43:53 +0000",
       "minecraft:sparse_jungle": "2025-06-01 04:19:07 +0000",
       "minecraft:river": "2025-06-01 02:52:56 +0000",
+      "minecraft:lukewarm_ocean": "2025-06-01 07:55:14 +0000",
+      "minecraft:stony_shore": "2025-06-01 07:54:49 +0000",
       "minecraft:lush_caves": "2025-06-01 02:18:16 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-01 03:14:44 +0000",
       "minecraft:desert": "2025-06-01 04:00:12 +0000",
@@ -22,7 +24,8 @@
       "minecraft:birch_forest": "2025-06-01 02:06:33 +0000",
       "minecraft:savanna": "2025-06-01 04:14:36 +0000",
       "minecraft:wooded_badlands": "2025-06-01 04:15:42 +0000",
-      "minecraft:plains": "2025-06-01 03:51:36 +0000"
+      "minecraft:plains": "2025-06-01 03:51:36 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-06-01 07:55:20 +0000"
     },
     "done": false
   },
@@ -169,6 +172,7 @@
       "minecraft:pillager": "2025-06-01 04:08:21 +0000",
       "minecraft:blaze": "2025-06-01 04:29:41 +0000",
       "minecraft:skeleton": "2025-06-01 02:14:58 +0000",
+      "minecraft:phantom": "2025-06-01 07:10:01 +0000",
       "minecraft:enderman": "2025-06-01 04:43:38 +0000",
       "minecraft:spider": "2025-06-01 02:34:55 +0000",
       "minecraft:zombie": "2025-06-01 02:28:25 +0000",
@@ -380,7 +384,9 @@
       "cooked_porkchop": "2025-06-01 02:58:30 +0000",
       "mutton": "2025-06-01 02:47:22 +0000",
       "bread": "2025-06-01 04:04:15 +0000",
+      "rotten_flesh": "2025-06-01 06:35:30 +0000",
       "glow_berries": "2025-06-01 02:19:34 +0000",
+      "cooked_beef": "2025-06-01 07:28:07 +0000",
       "beef": "2025-06-01 02:53:50 +0000",
       "melon_slice": "2025-06-01 03:28:52 +0000",
       "porkchop": "2025-06-01 03:13:18 +0000",
@@ -2269,6 +2275,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-06-01 08:16:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-01 07:31:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-06-01 05:55:43 +0000"
@@ -2284,6 +2302,12 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2025-06-01 05:51:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-01 07:19:01 +0000"
     },
     "done": true
   },
@@ -2305,9 +2329,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-06-01 07:18:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-06-01 05:55:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-01 07:31:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-01 07:31:48 +0000"
     },
     "done": true
   },
@@ -2317,9 +2359,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-01 07:31:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2025-06-01 05:51:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-01 06:29:01 +0000"
     },
     "done": true
   },
@@ -2335,6 +2389,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-01 07:31:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-06-01 05:51:35 +0000"
@@ -2344,6 +2404,12 @@
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-06-01 06:17:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-06-01 07:26:15 +0000"
     },
     "done": true
   },
@@ -2371,9 +2437,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-01 06:29:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-06-01 05:12:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-01 06:29:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-06-01 07:19:01 +0000"
     },
     "done": true
   },
@@ -2395,15 +2479,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-01 07:19:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-06-01 08:16:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2025-06-01 05:18:21 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-06-01 07:18:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-06-01 07:19:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-06-01 06:29:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-06-01 05:51:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-01 06:29:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-06-01 06:29:01 +0000"
     },
     "done": true
   },
@@ -2425,6 +2551,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-06-01 07:31:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-01 06:29:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2025-06-01 05:18:21 +0000"
@@ -2434,6 +2572,12 @@
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2025-06-01 06:17:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-06-01 06:29:01 +0000"
     },
     "done": true
   },

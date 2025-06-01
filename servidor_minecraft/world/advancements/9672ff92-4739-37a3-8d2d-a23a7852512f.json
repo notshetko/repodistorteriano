@@ -15,10 +15,12 @@
       "minecraft:sparse_jungle": "2025-06-01 03:44:04 +0000",
       "minecraft:river": "2025-06-01 02:22:25 +0000",
       "minecraft:lukewarm_ocean": "2025-06-01 03:22:05 +0000",
+      "minecraft:stony_shore": "2025-06-01 06:53:36 +0000",
       "minecraft:lush_caves": "2025-06-01 02:35:37 +0000",
       "minecraft:dripstone_caves": "2025-06-01 04:19:46 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-01 03:27:09 +0000",
       "minecraft:desert": "2025-06-01 03:58:44 +0000",
+      "minecraft:deep_dark": "2025-06-01 06:57:26 +0000",
       "minecraft:ocean": "2025-06-01 03:26:39 +0000",
       "minecraft:jungle": "2025-06-01 03:20:01 +0000",
       "minecraft:meadow": "2025-06-01 03:19:42 +0000",
@@ -2122,9 +2124,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-06-01 06:05:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/suspicious_stew_from_dandelion": {
     "criteria": {
       "has_dandelion": "2025-06-01 06:13:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-06-01 06:13:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-06-01 06:13:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-01 06:15:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-01 06:15:36 +0000"
     },
     "done": true
   },
@@ -2146,12 +2178,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_helmet": "2025-06-01 06:17:56 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2025-06-01 06:17:53 +0000"
@@ -2170,21 +2196,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-06-01 06:15:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2025-06-01 06:17:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_helmet": "2025-06-01 06:17:56 +0000"
     },
     "done": true
   },
@@ -2200,12 +2214,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2025-06-01 06:15:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2025-06-01 06:17:53 +0000"
@@ -2218,27 +2226,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2025-06-01 06:13:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_bastion": {
-    "criteria": {
-      "bastion": "2025-06-01 06:13:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2025-06-01 06:17:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_coal": "2025-06-01 06:05:17 +0000"
     },
     "done": true
   },
@@ -2251,6 +2241,24 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-06-01 06:17:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_helmet": "2025-06-01 06:17:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_helmet": "2025-06-01 06:17:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-06-01 06:58:30 +0000"
     },
     "done": true
   },
