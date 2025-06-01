@@ -1452,3 +1452,21 @@ Reason: Banned by an operator.
 [08:17:18] [Server thread/INFO]: Benchi discovered the floor was lava
 [08:17:30] [Server thread/INFO]: [[☠] YerKite: Teleported Benchi to [☠] YerKite]
 [08:18:54] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Creative Mode]
+[08:18:56] [Server thread/INFO]: Benchi lost connection: Disconnected
+[08:18:56] [Server thread/INFO]: Benchi left the game
+[08:18:58] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
+[08:19:03] [Server thread/INFO]: Kuzzpijon lost connection: Disconnected
+[08:19:03] [Server thread/INFO]: [☠] Kuzzpijon left the game
+[08:20:53] [Server thread/INFO]: YerKite lost connection: Disconnected
+[08:20:53] [Server thread/INFO]: [☠] YerKite left the game
+[08:21:36] [Server thread/INFO]: Stopping the server
+[08:21:36] [Server thread/INFO]: Stopping server
+[08:21:36] [Server thread/INFO]: Saving players
+[08:21:36] [Server thread/INFO]: Saving worlds
+[08:21:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:21:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:21:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:21:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:21:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:21:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:21:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
