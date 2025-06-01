@@ -23,6 +23,7 @@
       "minecraft:birch_forest": "2025-06-01 02:02:34 +0000",
       "minecraft:savanna": "2025-06-01 04:14:19 +0000",
       "minecraft:wooded_badlands": "2025-06-01 04:16:19 +0000",
+      "minecraft:bamboo_jungle": "2025-06-01 20:03:07 +0000",
       "minecraft:plains": "2025-06-01 03:51:36 +0000"
     },
     "done": false
@@ -289,16 +290,17 @@
     "criteria": {
       "cooked_porkchop": "2025-06-01 02:44:07 +0000",
       "mutton": "2025-06-01 02:07:42 +0000",
-      "apple": "2025-06-01 05:20:54 +0000",
       "chicken": "2025-06-01 02:43:40 +0000",
       "bread": "2025-06-01 04:16:23 +0000",
       "cooked_mutton": "2025-06-01 03:30:49 +0000",
       "salmon": "2025-06-01 03:13:28 +0000",
       "cooked_beef": "2025-06-01 03:36:55 +0000",
+      "chorus_fruit": "2025-06-01 20:34:54 +0000",
       "beef": "2025-06-01 02:43:45 +0000",
       "melon_slice": "2025-06-01 04:03:09 +0000",
       "porkchop": "2025-06-01 02:08:36 +0000",
-      "tropical_fish": "2025-06-01 03:13:47 +0000"
+      "tropical_fish": "2025-06-01 03:13:47 +0000",
+      "apple": "2025-06-01 05:20:54 +0000"
     },
     "done": false
   },
@@ -697,15 +699,17 @@
       "minecraft:pillager": "2025-06-01 04:10:18 +0000",
       "minecraft:blaze": "2025-06-01 04:29:15 +0000",
       "minecraft:skeleton": "2025-06-01 02:33:03 +0000",
+      "minecraft:ravager": "2025-06-01 04:11:22 +0000",
+      "minecraft:shulker": "2025-06-01 20:41:19 +0000",
       "minecraft:piglin": "2025-06-01 04:36:58 +0000",
       "minecraft:enderman": "2025-06-01 04:43:52 +0000",
+      "minecraft:silverfish": "2025-06-01 20:18:43 +0000",
       "minecraft:magma_cube": "2025-06-01 04:25:13 +0000",
       "minecraft:spider": "2025-06-01 02:36:39 +0000",
       "minecraft:zombie": "2025-06-01 02:42:00 +0000",
       "minecraft:creeper": "2025-06-01 06:47:30 +0000",
       "minecraft:drowned": "2025-06-01 06:10:09 +0000",
-      "minecraft:zombie_villager": "2025-06-01 08:12:51 +0000",
-      "minecraft:ravager": "2025-06-01 04:11:22 +0000"
+      "minecraft:zombie_villager": "2025-06-01 08:12:51 +0000"
     },
     "done": false
   },
@@ -1897,6 +1901,228 @@
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2025-06-01 07:54:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-06-01 19:48:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-06-01 20:16:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-06-01 20:16:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-06-01 20:16:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-06-01 20:17:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-06-01 20:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-06-01 20:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-06-01 20:21:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2025-06-01 20:21:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-06-01 20:21:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-06-01 20:21:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-06-01 20:21:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-06-01 20:25:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2025-06-01 20:32:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-06-01 20:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:45:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:45:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:45:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:45:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:45:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:45:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2025-06-01 20:49:51 +0000"
     },
     "done": true
   },

@@ -684,6 +684,7 @@
       "rotten_flesh": "2025-06-01 02:53:13 +0000",
       "glow_berries": "2025-06-01 04:17:26 +0000",
       "cooked_beef": "2025-06-01 02:31:44 +0000",
+      "chorus_fruit": "2025-06-01 20:32:41 +0000",
       "baked_potato": "2025-06-01 03:02:19 +0000",
       "melon_slice": "2025-06-01 03:45:12 +0000"
     },
@@ -1229,12 +1230,14 @@
       "minecraft:blaze": "2025-06-01 04:30:09 +0000",
       "minecraft:skeleton": "2025-06-01 02:42:42 +0000",
       "minecraft:husk": "2025-06-01 02:55:05 +0000",
+      "minecraft:shulker": "2025-06-01 20:42:21 +0000",
       "minecraft:cave_spider": "2025-06-01 03:03:33 +0000",
       "minecraft:piglin": "2025-06-01 06:18:41 +0000",
       "minecraft:breeze": "2025-06-01 02:57:22 +0000",
       "minecraft:vindicator": "2025-06-01 03:36:52 +0000",
       "minecraft:silverfish": "2025-06-01 03:07:45 +0000",
       "minecraft:stray": "2025-06-01 03:07:40 +0000",
+      "minecraft:enderman": "2025-06-01 20:22:57 +0000",
       "minecraft:spider": "2025-06-01 02:48:09 +0000",
       "minecraft:piglin_brute": "2025-06-01 06:17:08 +0000",
       "minecraft:zombie": "2025-06-01 02:38:03 +0000",
@@ -2303,6 +2306,108 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2025-06-01 19:18:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2025-06-01 20:32:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:41:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-06-01 20:21:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-06-01 20:41:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2025-06-01 20:21:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-06-01 20:21:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:41:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:41:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-06-01 20:17:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-06-01 20:20:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:41:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-06-01 20:21:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-06-01 20:21:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-06-01 20:42:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:41:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-06-01 20:20:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-06-01 20:41:49 +0000"
     },
     "done": true
   },
