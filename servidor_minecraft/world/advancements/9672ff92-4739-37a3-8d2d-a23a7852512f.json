@@ -281,6 +281,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-01 03:38:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-06-01 02:45:06 +0000"
@@ -755,6 +761,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-06-01 03:36:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_glow_ink_sac": "2025-06-01 02:42:21 +0000"
@@ -875,6 +887,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-06-01 03:37:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2025-06-01 02:54:48 +0000"
@@ -902,6 +920,12 @@
   "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-06-01 02:45:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-06-01 03:38:56 +0000"
     },
     "done": true
   },
@@ -982,10 +1006,12 @@
       "minecraft:cave_spider": "2025-06-01 03:03:33 +0000",
       "minecraft:skeleton": "2025-06-01 02:42:42 +0000",
       "minecraft:breeze": "2025-06-01 02:57:22 +0000",
+      "minecraft:vindicator": "2025-06-01 03:36:52 +0000",
       "minecraft:silverfish": "2025-06-01 03:07:45 +0000",
       "minecraft:stray": "2025-06-01 03:07:40 +0000",
       "minecraft:spider": "2025-06-01 02:48:09 +0000",
       "minecraft:zombie": "2025-06-01 02:38:03 +0000",
+      "minecraft:zombie_villager": "2025-06-01 03:37:43 +0000",
       "minecraft:husk": "2025-06-01 02:55:05 +0000"
     },
     "done": false
@@ -1023,6 +1049,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2025-06-01 02:23:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-01 03:38:56 +0000"
     },
     "done": true
   },
@@ -1190,13 +1222,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2025-06-01 03:21:34 +0000",
       "minecraft:dark_forest": "2025-06-01 02:21:02 +0000",
       "minecraft:forest": "2025-06-01 03:19:53 +0000",
       "minecraft:taiga": "2025-06-01 02:51:42 +0000",
       "minecraft:river": "2025-06-01 02:22:25 +0000",
+      "minecraft:lukewarm_ocean": "2025-06-01 03:22:05 +0000",
+      "minecraft:lush_caves": "2025-06-01 02:35:37 +0000",
+      "minecraft:old_growth_birch_forest": "2025-06-01 03:27:09 +0000",
+      "minecraft:ocean": "2025-06-01 03:26:39 +0000",
+      "minecraft:jungle": "2025-06-01 03:20:01 +0000",
       "minecraft:meadow": "2025-06-01 03:19:42 +0000",
       "minecraft:birch_forest": "2025-06-01 02:20:45 +0000",
-      "minecraft:lush_caves": "2025-06-01 02:35:37 +0000"
+      "minecraft:deep_lukewarm_ocean": "2025-06-01 03:22:20 +0000"
     },
     "done": false
   },
@@ -1272,6 +1310,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-06-01 03:38:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-06-01 02:33:50 +0000"
@@ -1329,6 +1373,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-06-01 02:33:14 +0000",
+      "honey_bottle": "2025-06-01 03:39:35 +0000",
       "rotten_flesh": "2025-06-01 02:53:13 +0000",
       "cooked_beef": "2025-06-01 02:31:44 +0000",
       "baked_potato": "2025-06-01 03:02:19 +0000"
@@ -1572,6 +1617,12 @@
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2025-06-01 02:21:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-06-01 03:36:48 +0000"
     },
     "done": true
   },
