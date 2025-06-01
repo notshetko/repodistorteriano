@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:badlands": "2025-06-01 04:14:43 +0000",
       "minecraft:beach": "2025-06-01 03:21:34 +0000",
       "minecraft:dark_forest": "2025-06-01 02:21:02 +0000",
       "minecraft:forest": "2025-06-01 03:19:53 +0000",
@@ -15,12 +16,16 @@
       "minecraft:river": "2025-06-01 02:22:25 +0000",
       "minecraft:lukewarm_ocean": "2025-06-01 03:22:05 +0000",
       "minecraft:lush_caves": "2025-06-01 02:35:37 +0000",
+      "minecraft:dripstone_caves": "2025-06-01 04:19:46 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-01 03:27:09 +0000",
+      "minecraft:desert": "2025-06-01 03:58:44 +0000",
       "minecraft:ocean": "2025-06-01 03:26:39 +0000",
       "minecraft:jungle": "2025-06-01 03:20:01 +0000",
       "minecraft:meadow": "2025-06-01 03:19:42 +0000",
       "minecraft:birch_forest": "2025-06-01 02:20:45 +0000",
+      "minecraft:savanna": "2025-06-01 04:14:12 +0000",
       "minecraft:bamboo_jungle": "2025-06-01 03:42:37 +0000",
+      "minecraft:wooded_badlands": "2025-06-01 04:15:36 +0000",
       "minecraft:plains": "2025-06-01 03:46:21 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-06-01 03:22:20 +0000"
     },
@@ -671,8 +676,10 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-06-01 02:33:14 +0000",
+      "mutton": "2025-06-01 04:10:46 +0000",
       "honey_bottle": "2025-06-01 03:39:35 +0000",
       "rotten_flesh": "2025-06-01 02:53:13 +0000",
+      "glow_berries": "2025-06-01 04:17:26 +0000",
       "cooked_beef": "2025-06-01 02:31:44 +0000",
       "baked_potato": "2025-06-01 03:02:19 +0000",
       "melon_slice": "2025-06-01 03:45:12 +0000"
@@ -1754,6 +1761,66 @@
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2025-06-01 03:51:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-06-01 04:20:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-06-01 04:20:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-06-01 04:13:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-06-01 04:09:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-06-01 04:13:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-06-01 04:20:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-06-01 04:11:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-06-01 04:13:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-06-01 04:13:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-06-01 04:20:56 +0000"
     },
     "done": true
   },

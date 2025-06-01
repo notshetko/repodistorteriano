@@ -7,16 +7,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-06-01 03:14:44 +0000",
+      "minecraft:badlands": "2025-06-01 04:15:17 +0000",
       "minecraft:beach": "2025-06-01 03:13:12 +0000",
       "minecraft:dark_forest": "2025-06-01 02:11:09 +0000",
       "minecraft:forest": "2025-06-01 03:17:24 +0000",
       "minecraft:taiga": "2025-06-01 02:43:53 +0000",
-      "minecraft:jungle": "2025-06-01 03:17:41 +0000",
+      "minecraft:sparse_jungle": "2025-06-01 04:19:07 +0000",
       "minecraft:river": "2025-06-01 02:52:56 +0000",
+      "minecraft:lush_caves": "2025-06-01 02:18:16 +0000",
+      "minecraft:old_growth_birch_forest": "2025-06-01 03:14:44 +0000",
+      "minecraft:desert": "2025-06-01 04:00:12 +0000",
+      "minecraft:jungle": "2025-06-01 03:17:41 +0000",
       "minecraft:meadow": "2025-06-01 03:16:58 +0000",
       "minecraft:birch_forest": "2025-06-01 02:06:33 +0000",
-      "minecraft:lush_caves": "2025-06-01 02:18:16 +0000",
+      "minecraft:savanna": "2025-06-01 04:14:36 +0000",
+      "minecraft:wooded_badlands": "2025-06-01 04:15:42 +0000",
       "minecraft:plains": "2025-06-01 03:51:36 +0000"
     },
     "done": false
@@ -161,10 +166,12 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-06-01 04:08:21 +0000",
       "minecraft:skeleton": "2025-06-01 02:14:58 +0000",
       "minecraft:spider": "2025-06-01 02:34:55 +0000",
       "minecraft:zombie": "2025-06-01 02:28:25 +0000",
-      "minecraft:creeper": "2025-06-01 02:35:55 +0000"
+      "minecraft:creeper": "2025-06-01 02:35:55 +0000",
+      "minecraft:ravager": "2025-06-01 04:10:17 +0000"
     },
     "done": false
   },
@@ -370,6 +377,7 @@
     "criteria": {
       "cooked_porkchop": "2025-06-01 02:58:30 +0000",
       "mutton": "2025-06-01 02:47:22 +0000",
+      "bread": "2025-06-01 04:04:15 +0000",
       "glow_berries": "2025-06-01 02:19:34 +0000",
       "beef": "2025-06-01 02:53:50 +0000",
       "melon_slice": "2025-06-01 03:28:52 +0000",
@@ -1608,12 +1616,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken": "2025-06-01 03:51:08 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2025-06-01 03:51:07 +0000"
@@ -1626,12 +1628,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2025-06-01 03:51:08 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2025-06-01 03:51:07 +0000"
@@ -1641,12 +1637,6 @@
   "minecraft:recipes/tools/golden_shovel": {
     "criteria": {
       "has_gold_ingot": "2025-06-01 03:51:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
-    "criteria": {
-      "has_chicken": "2025-06-01 03:51:08 +0000"
     },
     "done": true
   },
@@ -1701,6 +1691,192 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-06-01 03:51:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-06-01 03:51:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-06-01 03:51:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-06-01 03:51:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-06-01 04:06:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-01 04:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2025-06-01 04:06:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-06-01 04:06:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-06-01 04:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2025-06-01 04:12:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-06-01 04:06:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-01 04:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-06-01 04:04:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-01 04:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-01 04:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-06-01 04:09:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-01 04:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-06-01 04:10:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-06-01 04:09:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-06-01 04:06:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-01 04:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-06-01 04:06:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-06-01 04:05:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-06-01 04:11:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-06-01 04:04:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2025-06-01 04:12:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-06-01 04:04:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-01 04:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2025-06-01 04:05:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-06-01 04:04:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-01 04:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-01 04:13:23 +0000"
     },
     "done": true
   },

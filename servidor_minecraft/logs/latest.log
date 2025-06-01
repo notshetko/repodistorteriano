@@ -1,46 +1,202 @@
-[03:50:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:50:17] [ServerMain/INFO]: Loaded 1373 recipes
-[03:50:17] [ServerMain/INFO]: Loaded 1484 advancements
-[03:50:17] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[03:50:17] [Server thread/INFO]: Loading properties
-[03:50:17] [Server thread/INFO]: Default game type: SURVIVAL
-[03:50:17] [Server thread/INFO]: Generating keypair
-[03:50:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:50:17] [Server thread/INFO]: Using epoll channel type
-[03:50:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:50:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:50:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:50:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:50:17] [Server thread/INFO]: Preparing level "world"
-[03:50:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[03:50:25] [Server thread/INFO]: Time elapsed: 7106 ms
-[03:50:25] [Server thread/INFO]: Done (7.589s)! For help, type "help"
-[03:50:28] [Server thread/INFO]: Kuzzpijon[/127.115.168.57:54781] logged in with entity id 24 at (550.8050910862333, 89.0, -990.6502182130018)
-[03:50:28] [Server thread/INFO]: Kuzzpijon joined the game
-[03:50:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
-[03:50:36] [Server thread/INFO]: YerKite[/127.139.233.255:42527] logged in with entity id 231 at (614.0868555619439, 132.0, -869.965198980406)
-[03:50:36] [Server thread/INFO]: YerKite joined the game
-[03:50:37] [Server thread/INFO]: Randomsiosonso[/127.178.28.2:35675] logged in with entity id 232 at (1564.9249214535423, 84.0, -956.6716793553707)
-[03:50:37] [Server thread/INFO]: Randomsiosonso joined the game
-[03:50:40] [Server thread/INFO]: Vorpixel_MG[/127.196.221.69:47271] logged in with entity id 424 at (598.2341380674387, 100.0, -847.8782160699752)
-[03:50:40] [Server thread/INFO]: Vorpixel_MG joined the game
-[03:50:49] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> aca
-[03:50:56] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> aa
-[03:50:57] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> no
-[03:50:59] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> sigo en jungla
-[03:51:36] [Server thread/INFO]: [YerKite: Teleported 4 entities to Randomsiosonso]
-[03:51:57] [Server thread/INFO]: Stopping server
+[03:56:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:56:20] [ServerMain/INFO]: Loaded 1373 recipes
+[03:56:20] [ServerMain/INFO]: Loaded 1484 advancements
+[03:56:20] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[03:56:20] [Server thread/INFO]: Loading properties
+[03:56:20] [Server thread/INFO]: Default game type: SURVIVAL
+[03:56:20] [Server thread/INFO]: Generating keypair
+[03:56:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:56:21] [Server thread/INFO]: Using epoll channel type
+[03:56:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:56:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:56:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:56:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:56:21] [Server thread/INFO]: Preparing level "world"
+[03:56:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[03:56:33] [Server thread/INFO]: Time elapsed: 10768 ms
+[03:56:33] [Server thread/INFO]: Done (11.616s)! For help, type "help"
+[03:56:33] [Server thread/INFO]: Vorpixel_MG (/127.196.221.69:36543) lost connection: Disconnected
+[03:56:38] [Server thread/INFO]: Vorpixel_MG[/127.196.221.69:59621] logged in with entity id 25 at (1627.3094994078274, 68.1212968405392, -938.3160872621137)
+[03:56:38] [Server thread/INFO]: Vorpixel_MG joined the game
+[03:56:49] [Server thread/INFO]: YerKite[/127.139.233.255:55431] logged in with entity id 255 at (1628.4146528831257, 70.49520087700593, -966.0713159911072)
+[03:56:49] [Server thread/INFO]: YerKite joined the game
+[03:56:58] [Server thread/INFO]: Vorpixel_MG (/127.196.221.69:33641) lost connection: Timed out
+[03:57:01] [Server thread/INFO]: Kuzzpijon[/127.115.168.57:50423] logged in with entity id 299 at (1629.626301671429, 68.0, -944.9632257623645)
+[03:57:01] [Server thread/INFO]: Kuzzpijon joined the game
+[03:57:18] [Server thread/INFO]: YerKite lost connection: You logged in from another location
+[03:57:18] [Server thread/INFO]: YerKite left the game
+[03:57:18] [Server thread/WARN]: handleDisconnection() called twice
+[03:57:19] [Server thread/INFO]: YerKite[/127.139.233.255:48385] logged in with entity id 319 at (1628.4146528831257, 70.49520087700593, -966.0713159911072)
+[03:57:19] [Server thread/INFO]: YerKite joined the game
+[03:57:44] [Server thread/INFO]: CuCoasies[/127.202.183.42:38127] logged in with entity id 386 at (1567.8725410312627, 82.25220334025373, -944.9095718070209)
+[03:57:44] [Server thread/INFO]: CuCoasies joined the game
+[03:57:46] [Server thread/INFO]: YerKite lost connection: You logged in from another location
+[03:57:46] [Server thread/INFO]: YerKite left the game
+[03:57:46] [Server thread/WARN]: handleDisconnection() called twice
+[03:57:47] [Server thread/INFO]: YerKite[/127.139.233.255:57737] logged in with entity id 431 at (1628.4146528831257, 70.49520087700593, -966.0713159911072)
+[03:57:47] [Server thread/INFO]: YerKite joined the game
+[03:57:49] [Server thread/INFO]: Randomsiosonso[/127.178.28.2:41173] logged in with entity id 436 at (1663.9684532257695, 64.0, -879.6582182395966)
+[03:57:49] [Server thread/INFO]: Randomsiosonso joined the game
+[03:57:49] [Server thread/INFO]: [Not Secure] <CuCoasies> randop,
+[03:57:50] [Server thread/INFO]: [Not Secure] <CuCoasies> ramdp,
+[03:57:55] [Server thread/INFO]: [Not Secure] <Randomsiosonso> q
+[03:57:59] [Server thread/INFO]: [Not Secure] <CuCoasies> no teveo
+[03:58:06] [Server thread/INFO]: YerKite was slain by Vorpixel_MG
+[03:58:07] [Server thread/INFO]: [Not Secure] <CuCoasies> ven a la montaña
+[03:58:13] [Server thread/INFO]: [Not Secure] <Randomsiosonso> voy
+[03:58:14] [Server thread/INFO]: YerKite lost connection: You logged in from another location
+[03:58:14] [Server thread/INFO]: YerKite left the game
+[03:58:15] [Server thread/INFO]: YerKite[/127.139.233.255:38071] logged in with entity id 566 at (1628.4146528831257, 70.49520087700593, -966.0713159911072)
+[03:58:15] [Server thread/INFO]: YerKite joined the game
+[03:58:34] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> xq hay un bloque en el aire solo
+[03:58:43] [Server thread/INFO]: YerKite lost connection: You logged in from another location
+[03:58:43] [Server thread/INFO]: YerKite left the game
+[03:58:44] [Server thread/INFO]: YerKite[/127.139.233.255:50705] logged in with entity id 642 at (1628.4146528831257, 70.49520087700593, -966.0713159911072)
+[03:58:44] [Server thread/INFO]: YerKite joined the game
+[03:58:58] [Server thread/INFO]: [Not Secure] <CuCoasies> es una puta iosla
+[03:59:06] [Server thread/INFO]: [Not Secure] <CuCoasies> ah no
+[03:59:12] [Server thread/INFO]: [Not Secure] <Randomsiosonso> brabo kukonos condenaste
+[03:59:14] [Server thread/INFO]: YerKite lost connection: Timed out
+[03:59:14] [Server thread/INFO]: YerKite left the game
+[03:59:20] [Server thread/INFO]: [Not Secure] <CuCoasies> no es penmdejo
+[03:59:32] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> si es
+[03:59:37] [Server thread/INFO]: No player was found
+[03:59:37] [Server thread/INFO]: [Not Secure] <CuCoasies> ALAVERGA
+[03:59:39] [Server thread/INFO]: [Not Secure] <CuCoasies> EL NUEVO BIOMA
+[03:59:54] [Server thread/INFO]: YerKite[/127.139.233.255:43027] logged in with entity id 1643 at (1628.4146528831257, 70.49520087700593, -966.0713159911072)
+[03:59:54] [Server thread/INFO]: YerKite joined the game
+[04:00:00] [Server thread/INFO]: [YerKite: Teleported YerKite to Kuzzpijon]
+[04:00:33] [Server thread/INFO]: [Not Secure] <CuCoasies> Q ME SIGUEN
+[04:00:37] [Server thread/INFO]: [Not Secure] <CuCoasies> YO ESTOY BUSCANDO OTRA COSA CO NRANDOM
+[04:00:46] [Server thread/INFO]: [Not Secure] <CuCoasies> A RANDOM PENDEJO
+[04:01:06] [Server thread/INFO]: [Not Secure] <CuCoasies> q
+[04:01:10] [Server thread/INFO]: [Not Secure] <CuCoasies> no
+[04:01:21] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> perdido
+[04:01:23] [Server thread/INFO]: Randomsiosonso hit the ground too hard
+[04:01:33] [Server thread/INFO]: [Not Secure] <CuCoasies> vamos al nether?
+[04:01:42] [Server thread/INFO]: [Not Secure] <CuCoasies> A TI NO TE DIOGP PTMR
+[04:01:45] [Server thread/INFO]: [Not Secure] <CuCoasies> LE DIGO A RANDOm
+[04:01:52] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=2150, y=82, z=-1084} iw{x=2150, y=80, z=-1084}
+[04:02:35] [Server thread/INFO]: [Not Secure] <CuCoasies> pendejo aca hay planice zxddd
+[04:03:25] [Server thread/INFO]: [Not Secure] <CuCoasies> ok
+[04:03:48] [Server thread/INFO]: [Not Secure] <CuCoasies> a pendejo
+[04:03:59] [Server thread/INFO]: [Not Secure] <CuCoasies> PENDEJO EN EL COFRE HBIA PEDERNAL
+[04:04:07] [Server thread/INFO]: [Not Secure] <CuCoasies> PENSE Q LO VISET
+[04:04:42] [Server thread/INFO]: YerKite has made the advancement [Ice Bucket Challenge]
+[04:05:46] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> ora si
+[04:05:48] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> hazme tp
+[04:05:54] [Server thread/INFO]: [YerKite: Teleported Vorpixel_MG to YerKite]
+[04:06:48] [Server thread/INFO]: Kuzzpijon has made the advancement [Sweet Dreams]
+[04:07:18] [Server thread/INFO]: YerKite was doomed to fall by Iron Golem
+[04:07:21] [Server thread/INFO]: Randomsiosonso was slain by Kuzzpijon
+[04:07:22] [Server thread/INFO]: [Not Secure] <CuCoasies> se viene invasion we
+[04:07:23] [Server thread/INFO]: [YerKite: Teleported YerKite to Randomsiosonso]
+[04:07:49] [Server thread/INFO]: [Not Secure] <CuCoasies> TENGO TOTEM XD
+[04:07:55] [Server thread/INFO]: [Not Secure] <CuCoasies> ACA
+[04:08:08] [Server thread/INFO]: [Not Secure] <CuCoasies> ACA
+[04:08:35] [Server thread/INFO]: Vorpixel_MG has made the advancement [Voluntary Exile]
+[04:09:14] [Server thread/INFO]: Randomsiosonso has made the advancement [Voluntary Exile]
+[04:09:19] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> arroba cuco
+[04:10:05] [Server thread/INFO]: YerKite has made the advancement [Voluntary Exile]
+[04:10:18] [Server thread/INFO]: Kuzzpijon has made the advancement [Voluntary Exile]
+[04:10:40] [Server thread/INFO]: [Not Secure] <CuCoasies> 4 XD
+[04:10:51] [Server thread/INFO]: [Not Secure] <CuCoasies> ESCONDAN A ESOS PUTOS
+[04:11:24] [Server thread/INFO]: Randomsiosonso has completed the challenge [Hero of the Village]
+[04:11:24] [Server thread/INFO]: Vorpixel_MG has completed the challenge [Hero of the Village]
+[04:11:24] [Server thread/INFO]: YerKite has completed the challenge [Hero of the Village]
+[04:11:24] [Server thread/INFO]: Kuzzpijon has completed the challenge [Hero of the Village]
+[04:11:46] [Server thread/INFO]: [Not Secure] <CuCoasies> xd
+[04:11:51] [Server thread/INFO]: [Not Secure] <CuCoasies> ESTABA ESCONDIENDO A LOS PENDEJOS
+[04:12:09] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> NO TIENEN VENDEDORES XDDDD
+[04:12:11] [Server thread/INFO]: [Not Secure] <CuCoasies> RANDOM SI
+[04:12:21] [Server thread/INFO]: [Not Secure] <CuCoasies> ACA
+[04:12:42] [Server thread/INFO]: [Not Secure] <CuCoasies> RANDOM
+[04:12:44] [Server thread/INFO]: [Not Secure] <CuCoasies> VAMOS A BYUSACR MAS
+[04:12:56] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> A
+[04:12:56] [Server thread/INFO]: [Not Secure] <Randomsiosonso> mas q
+[04:13:01] [Server thread/INFO]: [Not Secure] <CuCoasies> ALDEAS
+[04:13:01] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> querian ir al nether¿
+[04:13:10] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> tengo pa hacer portal
+[04:13:11] [Server thread/INFO]: [Not Secure] <CuCoasies> VEN RANDO;m
+[04:13:18] [Server thread/INFO]: [Not Secure] <CuCoasies> RANDOM PUTO
+[04:13:20] [Server thread/INFO]: Randomsiosonso tried to swim in lava
+[04:13:27] [Server thread/INFO]: [Not Secure] <CuCoasies> SAVANA
+[04:13:37] [Server thread/INFO]: [Not Secure] <CuCoasies> DONDE KUZ
+[04:13:39] [Server thread/INFO]: [Not Secure] <CuCoasies> DIGO
+[04:13:39] [Server thread/INFO]: [Not Secure] <CuCoasies> ORPI
+[04:13:45] [Server thread/INFO]: [Not Secure] <CuCoasies> DONDE EL NEGRO EN BOTE
+[04:13:57] [Server thread/INFO]: [Not Secure] <CuCoasies> HANGALE TP A RANDOM XD
+[04:14:04] [Server thread/INFO]: [YerKite: Teleported Randomsiosonso to CuCoasies]
+[04:14:09] [Server thread/INFO]: [Not Secure] <CuCoasies> MESETAA
+[04:14:11] [Server thread/INFO]: [Not Secure] <CuCoasies> MESETA
+[04:16:01] [Server thread/INFO]: [YerKite: Teleported Kuzzpijon to YerKite]
+[04:16:12] [Server thread/INFO]: [Not Secure] <CuCoasies> ALAVERGA
+[04:16:22] [Server thread/INFO]: CuCoasies fell from a high place
+[04:16:22] [Server thread/WARN]: Randomsiosonso moved too quickly! 0.019647965065814788,-10.134067142292139,-0.44733408618895965
+[04:16:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2206ms or 44 ticks behind
+[04:16:30] [Server thread/INFO]: [Not Secure] <CuCoasies> haganme tp xd
+[04:16:33] [Server thread/INFO]: [Not Secure] <CuCoasies> spawne en el spawn
+[04:16:34] [Server thread/INFO]: [Not Secure] <CuCoasies> yerko
+[04:16:38] [Server thread/INFO]: [YerKite: Teleported CuCoasies to YerKite]
+[04:17:11] [Server thread/INFO]: [YerKite: Teleported Kuzzpijon to YerKite]
+[04:17:20] [Server thread/INFO]: [Not Secure] <CuCoasies> WARDEN
+[04:17:21] [Server thread/INFO]: [Not Secure] <CuCoasies> WARDEN CITy
+[04:17:24] [Server thread/INFO]: [Not Secure] <CuCoasies> ACA
+[04:17:53] [Server thread/INFO]: [Not Secure] <CuCoasies> erabioma
+[04:18:26] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=2080, y=-13, z=-132} iw{x=2081, y=-14, z=-133}
+[04:19:36] [Server thread/INFO]: [Not Secure] <CuCoasies> haganme tp a yerko o kuz
+[04:19:42] [Server thread/INFO]: [YerKite: Teleported CuCoasies to YerKite]
+[04:19:53] [Server thread/INFO]: [Not Secure] <CuCoasies> random tepeate
+[04:20:01] [Server thread/INFO]: [YerKite: Teleported Randomsiosonso to YerKite]
+[04:20:14] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> explorando
+[04:20:50] [Server thread/INFO]: [YerKite: Gamerule playersSleepingPercentage is now set to: 3]
+[04:20:58] [Server thread/WARN]: Oak Boat (vehicle of Vorpixel_MG) moved too quickly! 9.353544687296562,0.0,-4.537831074259287
+[04:20:58] [Server thread/WARN]: Oak Boat (vehicle of Vorpixel_MG) moved too quickly! 9.71327174297403,0.0,-4.712689023428027
+[04:20:58] [Server thread/WARN]: Oak Boat (vehicle of Vorpixel_MG) moved too quickly! 10.072998258764073,0.0,-4.887554108572402
+[04:20:58] [Server thread/WARN]: Oak Boat (vehicle of Vorpixel_MG) moved too quickly! 10.432724288655663,0.0,-5.062425616094686
+[04:21:30] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> ya hazme tp no encontre ni verga
+[04:21:35] [Server thread/INFO]: [YerKite: Teleported Vorpixel_MG to YerKite]
+[04:21:37] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=2408, y=68, z=-362} iw{x=2408, y=66, z=-363}
+[04:21:43] [Server thread/INFO]: [Not Secure] <CuCoasies> en tu puto mundo de mierda no se genera montañas o que
+[04:21:56] [Server thread/INFO]: [Not Secure] <CuCoasies> en tu culo
+[04:21:57] [Server thread/INFO]: [Not Secure] <CuCoasies> dentro
+[04:22:25] [Server thread/INFO]: Vorpixel_MG has made the advancement [We Need to Go Deeper]
+[04:22:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7037ms or 140 ticks behind
+[04:22:47] [Server thread/INFO]: [Not Secure] <CuCoasies> calalte puto
+[04:22:52] [Server thread/INFO]: CuCoasies has made the advancement [We Need to Go Deeper]
+[04:23:05] [Server thread/INFO]: Randomsiosonso has made the advancement [We Need to Go Deeper]
+[04:23:19] [Server thread/INFO]: YerKite has made the advancement [We Need to Go Deeper]
+[04:23:40] [Server thread/INFO]: [Not Secure] <CuCoasies> yo minare
+[04:23:48] [Server thread/INFO]: [Not Secure] <YerKite> 299 112 -32 - portal
+[04:23:57] [Server thread/INFO]: [Not Secure] <CuCoasies> SALVERGA
+[04:23:58] [Server thread/INFO]: Kuzzpijon has made the advancement [We Need to Go Deeper]
+[04:23:59] [Server thread/INFO]: [Not Secure] <CuCoasies> ME CAI FEO
+[04:24:11] [Server thread/INFO]: [Not Secure] <CuCoasies> QUE MIERDA ES ESTO
+[04:24:14] [Server thread/INFO]: [Not Secure] <Vorpixel_MG> aca ya encontre
+[04:24:24] [Server thread/INFO]: Randomsiosonso was burned to a crisp while fighting Kuzzpijon
+[04:24:41] [Server thread/INFO]: CuCoasies was doomed to fall
+[04:24:49] [Server thread/INFO]: [Not Secure] <CuCoasies> QUE PORTAL DE MIERDA
+[04:24:51] [Server thread/INFO]: [Not Secure] <CuCoasies> HAGAN OTRO LEJOS
+[04:25:34] [Server thread/INFO]: Kuzzpijon tried to swim in lava
