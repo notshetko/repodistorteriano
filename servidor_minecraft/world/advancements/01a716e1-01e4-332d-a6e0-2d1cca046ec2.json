@@ -9,22 +9,26 @@
     "criteria": {
       "minecraft:badlands": "2025-06-01 04:14:26 +0000",
       "minecraft:cold_ocean": "2025-06-01 02:14:39 +0000",
+      "minecraft:savanna_plateau": "2025-06-01 22:00:25 +0000",
       "minecraft:beach": "2025-06-01 02:14:37 +0000",
       "minecraft:dark_forest": "2025-06-01 02:07:58 +0000",
       "minecraft:forest": "2025-06-01 02:08:51 +0000",
       "minecraft:taiga": "2025-06-01 02:08:16 +0000",
       "minecraft:mangrove_swamp": "2025-06-01 04:01:33 +0000",
       "minecraft:sparse_jungle": "2025-06-01 04:16:15 +0000",
+      "minecraft:deep_ocean": "2025-06-01 21:56:29 +0000",
       "minecraft:river": "2025-06-01 02:14:33 +0000",
       "minecraft:lukewarm_ocean": "2025-06-01 04:17:24 +0000",
       "minecraft:stony_shore": "2025-06-01 04:18:09 +0000",
       "minecraft:lush_caves": "2025-06-01 02:19:01 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-01 02:16:06 +0000",
       "minecraft:desert": "2025-06-01 03:59:43 +0000",
+      "minecraft:deep_dark": "2025-06-01 22:03:25 +0000",
       "minecraft:ocean": "2025-06-01 02:16:16 +0000",
       "minecraft:jungle": "2025-06-01 03:22:28 +0000",
       "minecraft:birch_forest": "2025-06-01 02:07:17 +0000",
       "minecraft:savanna": "2025-06-01 04:14:09 +0000",
+      "minecraft:bamboo_jungle": "2025-06-01 21:44:18 +0000",
       "minecraft:plains": "2025-06-01 03:51:36 +0000"
     },
     "done": false
@@ -890,6 +894,7 @@
       "minecraft:piglin": "2025-06-01 04:54:46 +0000",
       "minecraft:vindicator": "2025-06-01 04:08:35 +0000",
       "minecraft:enderman": "2025-06-01 02:30:05 +0000",
+      "minecraft:silverfish": "2025-06-01 21:34:04 +0000",
       "minecraft:spider": "2025-06-01 03:36:09 +0000",
       "minecraft:zombie": "2025-06-01 03:20:59 +0000",
       "minecraft:creeper": "2025-06-01 20:02:39 +0000",
@@ -3208,6 +3213,126 @@
   "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2025-06-01 20:47:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-06-01 22:04:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-06-01 21:31:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-06-01 21:31:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-06-01 21:31:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2025-06-01 22:06:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-06-01 22:03:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-06-01 22:04:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-06-01 22:04:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-06-01 22:04:13 +0000"
     },
     "done": true
   },
