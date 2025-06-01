@@ -696,6 +696,7 @@
       "minecraft:blaze": "2025-06-01 04:29:15 +0000",
       "minecraft:skeleton": "2025-06-01 02:33:03 +0000",
       "minecraft:piglin": "2025-06-01 04:36:58 +0000",
+      "minecraft:enderman": "2025-06-01 04:43:52 +0000",
       "minecraft:magma_cube": "2025-06-01 04:25:13 +0000",
       "minecraft:spider": "2025-06-01 02:36:39 +0000",
       "minecraft:zombie": "2025-06-01 02:42:00 +0000",
@@ -1393,6 +1394,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-06-01 04:45:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2025-06-01 04:15:32 +0000"
@@ -1417,6 +1424,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-06-01 04:45:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/glistering_melon_slice": {
     "criteria": {
       "has_melon": "2025-06-01 04:02:59 +0000"
@@ -1433,7 +1446,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-06-01 04:41:17 +0000",
       "minecraft:nether_wastes": "2025-06-01 04:35:13 +0000",
-      "minecraft:basalt_deltas": "2025-06-01 04:23:58 +0000"
+      "minecraft:basalt_deltas": "2025-06-01 04:23:58 +0000",
+      "minecraft:warped_forest": "2025-06-01 04:42:40 +0000"
     },
     "done": false
   },
@@ -1563,6 +1577,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-06-01 04:45:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2025-06-01 04:06:27 +0000"
@@ -1572,6 +1592,12 @@
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2025-06-01 04:15:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-06-01 04:45:08 +0000"
     },
     "done": true
   },
@@ -1587,6 +1613,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-06-01 04:42:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
       "has_basalt": "2025-06-01 04:24:40 +0000"
@@ -1599,9 +1631,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-06-01 04:45:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_bricks": "2025-06-01 04:33:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-06-01 04:45:08 +0000"
     },
     "done": true
   },
