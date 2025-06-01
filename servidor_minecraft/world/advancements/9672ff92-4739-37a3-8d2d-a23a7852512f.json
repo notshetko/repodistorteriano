@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-06-01 03:45:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2025-06-01 02:21:59 +0000"
@@ -206,6 +212,12 @@
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2025-06-01 02:29:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-06-01 03:45:06 +0000"
     },
     "done": true
   },
@@ -653,6 +665,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2025-06-01 03:45:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2025-06-01 02:30:52 +0000"
@@ -800,6 +818,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2025-06-01 02:33:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-06-01 03:45:06 +0000"
     },
     "done": true
   },
@@ -1003,6 +1027,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-06-01 03:45:47 +0000",
       "minecraft:cave_spider": "2025-06-01 03:03:33 +0000",
       "minecraft:skeleton": "2025-06-01 02:42:42 +0000",
       "minecraft:breeze": "2025-06-01 02:57:22 +0000",
@@ -1226,6 +1251,7 @@
       "minecraft:dark_forest": "2025-06-01 02:21:02 +0000",
       "minecraft:forest": "2025-06-01 03:19:53 +0000",
       "minecraft:taiga": "2025-06-01 02:51:42 +0000",
+      "minecraft:sparse_jungle": "2025-06-01 03:44:04 +0000",
       "minecraft:river": "2025-06-01 02:22:25 +0000",
       "minecraft:lukewarm_ocean": "2025-06-01 03:22:05 +0000",
       "minecraft:lush_caves": "2025-06-01 02:35:37 +0000",
@@ -1234,6 +1260,8 @@
       "minecraft:jungle": "2025-06-01 03:20:01 +0000",
       "minecraft:meadow": "2025-06-01 03:19:42 +0000",
       "minecraft:birch_forest": "2025-06-01 02:20:45 +0000",
+      "minecraft:bamboo_jungle": "2025-06-01 03:42:37 +0000",
+      "minecraft:plains": "2025-06-01 03:46:21 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-06-01 03:22:20 +0000"
     },
     "done": false
@@ -1283,6 +1311,12 @@
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2025-06-01 02:39:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-06-01 03:43:08 +0000"
     },
     "done": true
   },
@@ -1376,7 +1410,8 @@
       "honey_bottle": "2025-06-01 03:39:35 +0000",
       "rotten_flesh": "2025-06-01 02:53:13 +0000",
       "cooked_beef": "2025-06-01 02:31:44 +0000",
-      "baked_potato": "2025-06-01 03:02:19 +0000"
+      "baked_potato": "2025-06-01 03:02:19 +0000",
+      "melon_slice": "2025-06-01 03:45:12 +0000"
     },
     "done": false
   },
@@ -1395,6 +1430,12 @@
   "minecraft:recipes/combat/mace": {
     "criteria": {
       "has_breeze_rod": "2025-06-01 02:57:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-06-01 03:43:08 +0000"
     },
     "done": true
   },
@@ -1533,6 +1574,12 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-06-01 02:39:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-06-01 03:43:08 +0000"
     },
     "done": true
   },
