@@ -7,9 +7,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_birch_forest": "2025-06-01 03:14:44 +0000",
+      "minecraft:beach": "2025-06-01 03:13:12 +0000",
       "minecraft:dark_forest": "2025-06-01 02:11:09 +0000",
+      "minecraft:forest": "2025-06-01 03:17:24 +0000",
       "minecraft:taiga": "2025-06-01 02:43:53 +0000",
+      "minecraft:jungle": "2025-06-01 03:17:41 +0000",
       "minecraft:river": "2025-06-01 02:52:56 +0000",
+      "minecraft:meadow": "2025-06-01 03:16:58 +0000",
       "minecraft:birch_forest": "2025-06-01 02:06:33 +0000",
       "minecraft:lush_caves": "2025-06-01 02:18:16 +0000"
     },
@@ -366,6 +371,7 @@
       "mutton": "2025-06-01 02:47:22 +0000",
       "glow_berries": "2025-06-01 02:19:34 +0000",
       "beef": "2025-06-01 02:53:50 +0000",
+      "porkchop": "2025-06-01 03:13:18 +0000",
       "tropical_fish": "2025-06-01 02:33:49 +0000"
     },
     "done": false
@@ -682,6 +688,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-06-01 03:09:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2025-06-01 02:39:20 +0000"
@@ -715,6 +727,12 @@
   "minecraft:recipes/tools/brush": {
     "criteria": {
       "has_copper_ingot": "2025-06-01 02:57:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-01 03:08:16 +0000"
     },
     "done": true
   },
@@ -778,6 +796,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2025-06-01 03:08:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2025-06-01 02:33:25 +0000"
@@ -820,9 +844,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-06-01 03:09:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2025-06-01 02:34:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2025-06-01 03:08:16 +0000"
     },
     "done": true
   },
@@ -859,6 +895,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2025-06-01 02:34:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-01 03:08:16 +0000"
     },
     "done": true
   },
@@ -934,6 +976,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2025-06-01 03:09:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
       "has_black_wool": "2025-06-01 02:45:01 +0000"
@@ -943,6 +991,12 @@
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-06-01 02:48:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2025-06-01 03:08:16 +0000"
     },
     "done": true
   },
@@ -1003,6 +1057,12 @@
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2025-06-01 02:34:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-06-01 03:08:14 +0000"
     },
     "done": true
   },
@@ -1090,6 +1150,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-06-01 03:08:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
       "has_amethyst_shard": "2025-06-01 02:56:43 +0000"
@@ -1162,9 +1228,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-01 03:08:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2025-06-01 02:39:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2025-06-01 03:08:16 +0000"
     },
     "done": true
   },
@@ -1186,9 +1264,21 @@
     },
     "done": true
   },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2025-06-01 03:03:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2025-06-01 02:48:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-06-01 03:17:36 +0000"
     },
     "done": true
   },
@@ -1222,6 +1312,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-01 03:08:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_tuff": {
     "criteria": {
       "has_tuff": "2025-06-01 02:55:47 +0000"
@@ -1231,6 +1327,18 @@
   "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-06-01 02:55:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-06-01 03:17:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-01 03:08:16 +0000"
     },
     "done": true
   },
@@ -1282,6 +1390,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-06-01 03:08:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-06-01 02:34:56 +0000"
@@ -1294,6 +1408,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-06-01 03:17:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-06-01 02:41:23 +0000"
@@ -1303,6 +1423,12 @@
   "minecraft:recipes/tools/bundle": {
     "criteria": {
       "has_string": "2025-06-01 02:34:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2025-06-01 03:08:16 +0000"
     },
     "done": true
   },
