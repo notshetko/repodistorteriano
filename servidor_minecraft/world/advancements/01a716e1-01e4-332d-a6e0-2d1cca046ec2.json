@@ -17,7 +17,8 @@
       "minecraft:jungle": "2025-06-01 03:22:28 +0000",
       "minecraft:river": "2025-06-01 02:14:33 +0000",
       "minecraft:birch_forest": "2025-06-01 02:07:17 +0000",
-      "minecraft:lush_caves": "2025-06-01 02:19:01 +0000"
+      "minecraft:lush_caves": "2025-06-01 02:19:01 +0000",
+      "minecraft:plains": "2025-06-01 03:51:36 +0000"
     },
     "done": false
   },
@@ -1641,15 +1642,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/leaf_litter": {
-    "criteria": {
-      "has_leaves": "2025-06-01 03:44:17 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/bordure_indented_banner_pattern": {
     "criteria": {
       "has_vines": "2025-06-01 03:42:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2025-06-01 03:42:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leaf_litter": {
+    "criteria": {
+      "has_leaves": "2025-06-01 03:44:17 +0000"
     },
     "done": true
   },
@@ -1695,12 +1702,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
-    "criteria": {
-      "has_vine": "2025-06-01 03:42:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/jungle_stairs": {
     "criteria": {
       "has_planks": "2025-06-01 03:46:04 +0000"
@@ -1710,6 +1711,30 @@
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_planks": "2025-06-01 03:46:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-06-01 03:51:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-06-01 03:51:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-06-01 03:51:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-06-01 03:51:33 +0000"
     },
     "done": true
   },
