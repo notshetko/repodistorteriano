@@ -1,0 +1,62 @@
+[02:09:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:09:44] [ServerMain/INFO]: Loaded 1373 recipes
+[02:09:45] [ServerMain/INFO]: Loaded 1484 advancements
+[02:09:45] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[02:09:45] [Server thread/INFO]: Loading properties
+[02:09:45] [Server thread/INFO]: Default game type: SURVIVAL
+[02:09:45] [Server thread/INFO]: Generating keypair
+[02:09:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:09:45] [Server thread/INFO]: Using epoll channel type
+[02:09:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:09:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:09:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:09:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:09:45] [Server thread/INFO]: Preparing level "world"
+[02:09:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:09:54] [Server thread/INFO]: Time elapsed: 8444 ms
+[02:09:54] [Server thread/INFO]: Done (8.881s)! For help, type "help"
+[02:09:58] [Server thread/INFO]: Made YerKite a server operator
+[02:10:01] [Server thread/INFO]: Vorpixel_MG[/127.196.221.69:47147] logged in with entity id 68 at (61.95055156208158, 48.0, -382.4401231170196)
+[02:10:01] [Server thread/INFO]: Vorpixel_MG joined the game
+[02:10:10] [Server thread/INFO]: YerKite[/127.139.233.255:52581] logged in with entity id 343 at (266.96245572599577, 73.0, -446.118072149743)
+[02:10:10] [Server thread/INFO]: YerKite joined the game
+[02:10:24] [Server thread/INFO]: Benchi[/127.83.25.6:46419] logged in with entity id 527 at (263.0561039536472, 65.0, -385.1191033291796)
+[02:10:24] [Server thread/INFO]: Benchi joined the game
+[02:10:39] [Server thread/INFO]: Benchi has made the advancement [Getting an Upgrade]
+[02:11:30] [Server thread/INFO]: Kuzzpijon[/127.115.168.57:56981] logged in with entity id 930 at (129.49995156163183, 68.0, -334.8220885050345)
+[02:11:30] [Server thread/INFO]: Kuzzpijon joined the game
+[02:12:17] [Server thread/INFO]: [YerKite: Gamerule keepInventory is now set to: true]
+[02:12:44] [Server thread/INFO]: Vorpixel_MG has made the advancement [Stone Age]
+[02:13:13] [Server thread/INFO]: Vorpixel_MG has made the advancement [Getting an Upgrade]
+[02:13:55] [Server thread/INFO]: Kuzzpijon was shot by Skeleton
+[02:14:17] [Server thread/INFO]: Benchi fell from a high place
+[02:14:58] [Server thread/INFO]: YerKite has made the advancement [Monster Hunter]
+[02:15:55] [Server thread/INFO]: YerKite has made the advancement [Stone Age]
+[02:16:56] [Server thread/INFO]: Benchi was shot by Skeleton
+[02:17:44] [Server thread/INFO]: Vorpixel_MG has made the advancement [Ice Bucket Challenge]
+[02:18:02] [Server thread/INFO]: YerKite has made the advancement [Getting an Upgrade]
+[02:18:15] [Server thread/WARN]: YerKite moved too quickly! -0.34348009459279183,-10.221069856431779,-1.3647191729950805
+[02:18:56] [Server thread/INFO]: [YerKite: Teleported Kuzzpijon to YerKite]
+[02:18:58] [Server thread/INFO]: Benchi burned to death
+[02:19:00] [Server thread/INFO]: [YerKite: Teleported Vorpixel_MG to YerKite]
+[02:19:06] [Server thread/INFO]: [YerKite: Teleported Benchi to YerKite]
+[02:19:14] [Server thread/INFO]: Benchi has made the advancement [Minecraft: Trial(s) Edition]
+[02:19:21] [Server thread/INFO]: Vorpixel_MG has made the advancement [Minecraft: Trial(s) Edition]
+[02:19:23] [Server thread/INFO]: YerKite has made the advancement [Minecraft: Trial(s) Edition]
