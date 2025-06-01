@@ -679,6 +679,7 @@
     "criteria": {
       "cooked_porkchop": "2025-06-01 02:33:14 +0000",
       "mutton": "2025-06-01 04:10:46 +0000",
+      "cooked_chicken": "2025-06-01 19:00:22 +0000",
       "honey_bottle": "2025-06-01 03:39:35 +0000",
       "rotten_flesh": "2025-06-01 02:53:13 +0000",
       "glow_berries": "2025-06-01 04:17:26 +0000",
@@ -1237,6 +1238,7 @@
       "minecraft:spider": "2025-06-01 02:48:09 +0000",
       "minecraft:piglin_brute": "2025-06-01 06:17:08 +0000",
       "minecraft:zombie": "2025-06-01 02:38:03 +0000",
+      "minecraft:creeper": "2025-06-01 19:18:11 +0000",
       "minecraft:zombie_villager": "2025-06-01 03:37:43 +0000"
     },
     "done": false
@@ -2277,6 +2279,30 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-06-01 18:49:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-06-01 19:17:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-06-01 19:17:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-06-01 19:18:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-06-01 19:18:13 +0000"
     },
     "done": true
   },
