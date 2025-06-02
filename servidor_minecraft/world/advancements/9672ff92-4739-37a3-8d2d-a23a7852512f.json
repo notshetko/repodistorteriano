@@ -1232,6 +1232,7 @@
       "minecraft:blaze": "2025-06-01 04:30:09 +0000",
       "minecraft:skeleton": "2025-06-01 02:42:42 +0000",
       "minecraft:husk": "2025-06-01 02:55:05 +0000",
+      "minecraft:ghast": "2025-06-02 23:02:01 +0000",
       "minecraft:hoglin": "2025-06-02 22:48:33 +0000",
       "minecraft:shulker": "2025-06-01 20:42:21 +0000",
       "minecraft:cave_spider": "2025-06-01 03:03:33 +0000",
@@ -1853,6 +1854,7 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-06-02 22:47:54 +0000",
       "minecraft:nether_wastes": "2025-06-01 04:29:50 +0000",
+      "minecraft:soul_sand_valley": "2025-06-02 23:04:08 +0000",
       "minecraft:basalt_deltas": "2025-06-01 04:23:06 +0000"
     },
     "done": false
@@ -3009,6 +3011,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-06-02 23:04:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/crimson_hyphae": {
     "criteria": {
       "has_log": "2025-06-02 22:48:44 +0000"
@@ -3027,6 +3035,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-06-02 23:02:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2025-06-02 22:38:17 +0000"
@@ -3042,6 +3056,12 @@
   "minecraft:recipes/redstone/crimson_fence_gate": {
     "criteria": {
       "has_planks": "2025-06-02 22:48:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-06-02 23:04:11 +0000"
     },
     "done": true
   },
