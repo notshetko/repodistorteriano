@@ -368,7 +368,8 @@
       "rotten_flesh": "2025-06-01 19:32:15 +0000",
       "glow_berries": "2025-06-01 22:14:44 +0000",
       "cooked_beef": "2025-06-01 18:40:19 +0000",
-      "chorus_fruit": "2025-06-01 21:00:46 +0000"
+      "chorus_fruit": "2025-06-01 21:00:46 +0000",
+      "baked_potato": "2025-06-02 23:54:09 +0000"
     },
     "done": false
   },
@@ -2527,6 +2528,18 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-06-02 23:00:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-06-02 23:50:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-06-02 23:50:22 +0000"
     },
     "done": true
   },
