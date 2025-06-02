@@ -20,6 +20,7 @@
       "minecraft:dripstone_caves": "2025-06-01 21:56:59 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-01 03:14:44 +0000",
       "minecraft:desert": "2025-06-01 04:00:12 +0000",
+      "minecraft:deep_dark": "2025-06-02 23:21:15 +0000",
       "minecraft:jungle": "2025-06-01 03:17:41 +0000",
       "minecraft:meadow": "2025-06-01 03:16:58 +0000",
       "minecraft:birch_forest": "2025-06-01 02:06:33 +0000",
@@ -179,6 +180,7 @@
       "minecraft:zombie": "2025-06-01 02:28:25 +0000",
       "minecraft:creeper": "2025-06-01 02:35:55 +0000",
       "minecraft:drowned": "2025-06-01 20:19:55 +0000",
+      "minecraft:zombie_villager": "2025-06-02 23:20:55 +0000",
       "minecraft:ravager": "2025-06-01 04:10:17 +0000"
     },
     "done": false
