@@ -321,6 +321,7 @@
       "melon_slice": "2025-06-01 03:43:24 +0000",
       "tropical_fish": "2025-06-01 03:22:50 +0000",
       "golden_carrot": "2025-06-01 02:57:20 +0000",
+      "apple": "2025-06-02 23:24:29 +0000",
       "cooked_chicken": "2025-06-01 02:49:57 +0000",
       "carrot": "2025-06-01 03:00:22 +0000"
     },
@@ -3764,6 +3765,12 @@
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
       "has_log": "2025-06-02 22:43:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leaf_litter": {
+    "criteria": {
+      "has_leaves": "2025-06-02 23:34:07 +0000"
     },
     "done": true
   },

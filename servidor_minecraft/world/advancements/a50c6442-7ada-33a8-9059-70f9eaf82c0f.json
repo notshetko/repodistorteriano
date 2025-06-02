@@ -173,6 +173,7 @@
     "criteria": {
       "minecraft:pillager": "2025-06-01 04:08:21 +0000",
       "minecraft:blaze": "2025-06-01 04:29:41 +0000",
+      "minecraft:cave_spider": "2025-06-02 23:36:33 +0000",
       "minecraft:skeleton": "2025-06-01 02:14:58 +0000",
       "minecraft:phantom": "2025-06-01 07:10:01 +0000",
       "minecraft:enderman": "2025-06-01 04:43:38 +0000",
@@ -3240,6 +3241,42 @@
   "minecraft:recipes/misc/popped_chorus_fruit": {
     "criteria": {
       "has_chorus_fruit": "2025-06-01 23:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-06-02 23:25:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-06-02 23:34:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2025-06-02 23:35:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2025-06-02 23:35:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-06-02 23:34:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-06-02 23:34:58 +0000"
     },
     "done": true
   },
