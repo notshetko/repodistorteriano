@@ -716,6 +716,7 @@
       "minecraft:silverfish": "2025-06-01 20:18:43 +0000",
       "minecraft:magma_cube": "2025-06-01 04:25:13 +0000",
       "minecraft:spider": "2025-06-01 02:36:39 +0000",
+      "minecraft:piglin_brute": "2025-06-03 02:13:58 +0000",
       "minecraft:zombie": "2025-06-01 02:42:00 +0000",
       "minecraft:creeper": "2025-06-01 06:47:30 +0000",
       "minecraft:drowned": "2025-06-01 06:10:09 +0000",
@@ -2541,6 +2542,12 @@
   "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2025-06-03 00:21:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-06-03 02:09:46 +0000"
     },
     "done": true
   },
