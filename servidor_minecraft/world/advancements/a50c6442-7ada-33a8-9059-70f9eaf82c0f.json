@@ -178,6 +178,7 @@
       "minecraft:phantom": "2025-06-01 07:10:01 +0000",
       "minecraft:zombified_piglin": "2025-06-03 02:17:01 +0000",
       "minecraft:ravager": "2025-06-01 04:10:17 +0000",
+      "minecraft:hoglin": "2025-06-03 02:40:42 +0000",
       "minecraft:cave_spider": "2025-06-02 23:36:33 +0000",
       "minecraft:piglin": "2025-06-03 02:16:47 +0000",
       "minecraft:enderman": "2025-06-01 04:43:38 +0000",
@@ -3520,6 +3521,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-06-03 02:31:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_shovel_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-03 01:55:24 +0000"
@@ -3550,6 +3557,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2025-06-03 02:32:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/respawn_anchor": {
     "criteria": {
       "has_obsidian": "2025-06-03 02:16:00 +0000"
@@ -3571,6 +3584,12 @@
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-03 01:55:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-06-03 02:28:17 +0000"
     },
     "done": true
   },

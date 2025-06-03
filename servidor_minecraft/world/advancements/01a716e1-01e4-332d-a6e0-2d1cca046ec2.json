@@ -35,6 +35,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-06-03 02:40:58 +0000",
       "golden_apple": "2025-06-01 05:07:15 +0000",
       "bread": "2025-06-01 04:07:45 +0000",
       "cooked_mutton": "2025-06-01 02:24:16 +0000",
@@ -42,7 +43,8 @@
       "cooked_cod": "2025-06-01 20:19:46 +0000",
       "sweet_berries": "2025-06-01 02:08:36 +0000",
       "chorus_fruit": "2025-06-01 20:35:43 +0000",
-      "melon_slice": "2025-06-01 03:23:39 +0000"
+      "melon_slice": "2025-06-01 03:23:39 +0000",
+      "porkchop": "2025-06-03 02:42:14 +0000"
     },
     "done": false
   },
@@ -3547,6 +3549,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-06-03 02:34:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2025-06-03 01:46:03 +0000"
@@ -3577,9 +3585,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2025-06-03 02:40:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_scrap_from_blasting": {
     "criteria": {
       "has_ancient_debris": "2025-06-03 01:22:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-06-03 02:34:06 +0000"
     },
     "done": true
   },
@@ -3601,9 +3621,21 @@
     },
     "done": true
   },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_bridge": "2025-06-03 02:29:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2025-06-03 02:21:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-03 02:40:42 +0000"
     },
     "done": true
   },
