@@ -893,15 +893,16 @@
       "minecraft:pillager": "2025-06-01 04:08:18 +0000",
       "minecraft:blaze": "2025-06-01 04:27:10 +0000",
       "minecraft:skeleton": "2025-06-01 02:29:48 +0000",
+      "minecraft:hoglin": "2025-06-01 04:47:25 +0000",
+      "minecraft:shulker": "2025-06-01 20:45:44 +0000",
       "minecraft:piglin": "2025-06-01 04:54:46 +0000",
       "minecraft:vindicator": "2025-06-01 04:08:35 +0000",
       "minecraft:enderman": "2025-06-01 02:30:05 +0000",
       "minecraft:silverfish": "2025-06-01 21:34:04 +0000",
       "minecraft:spider": "2025-06-01 03:36:09 +0000",
+      "minecraft:piglin_brute": "2025-06-03 02:47:28 +0000",
       "minecraft:zombie": "2025-06-01 03:20:59 +0000",
-      "minecraft:creeper": "2025-06-01 20:02:39 +0000",
-      "minecraft:hoglin": "2025-06-01 04:47:25 +0000",
-      "minecraft:shulker": "2025-06-01 20:45:44 +0000"
+      "minecraft:creeper": "2025-06-01 20:02:39 +0000"
     },
     "done": false
   },
