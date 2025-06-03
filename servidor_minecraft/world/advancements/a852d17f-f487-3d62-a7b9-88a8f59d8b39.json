@@ -302,7 +302,8 @@
       "melon_slice": "2025-06-01 04:03:09 +0000",
       "porkchop": "2025-06-01 02:08:36 +0000",
       "tropical_fish": "2025-06-01 03:13:47 +0000",
-      "apple": "2025-06-01 05:20:54 +0000"
+      "apple": "2025-06-01 05:20:54 +0000",
+      "potato": "2025-06-03 00:07:30 +0000"
     },
     "done": false
   },
@@ -2238,6 +2239,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-06-03 00:09:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2025-06-02 22:47:56 +0000"
@@ -2247,6 +2254,12 @@
   "minecraft:recipes/combat/netherite_boots_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-02 22:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-06-03 00:07:26 +0000"
     },
     "done": true
   },
@@ -2283,6 +2296,18 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2025-06-02 23:53:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-06-03 00:07:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-06-03 00:07:26 +0000"
     },
     "done": true
   },
@@ -2328,6 +2353,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-06-03 00:09:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
       "ancient_debris": "2025-06-02 22:31:21 +0000"
@@ -2355,6 +2386,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2025-06-02 23:24:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-06-03 00:09:57 +0000"
     },
     "done": true
   },
