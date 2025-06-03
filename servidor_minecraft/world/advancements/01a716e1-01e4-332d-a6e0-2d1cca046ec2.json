@@ -44,7 +44,8 @@
       "sweet_berries": "2025-06-01 02:08:36 +0000",
       "chorus_fruit": "2025-06-01 20:35:43 +0000",
       "melon_slice": "2025-06-01 03:23:39 +0000",
-      "porkchop": "2025-06-03 02:42:14 +0000"
+      "porkchop": "2025-06-03 02:42:14 +0000",
+      "golden_carrot": "2025-06-03 03:07:24 +0000"
     },
     "done": false
   },
@@ -899,6 +900,7 @@
       "minecraft:vindicator": "2025-06-01 04:08:35 +0000",
       "minecraft:enderman": "2025-06-01 02:30:05 +0000",
       "minecraft:silverfish": "2025-06-01 21:34:04 +0000",
+      "minecraft:magma_cube": "2025-06-03 03:06:45 +0000",
       "minecraft:spider": "2025-06-01 03:36:09 +0000",
       "minecraft:piglin_brute": "2025-06-03 02:47:28 +0000",
       "minecraft:zombie": "2025-06-01 03:20:59 +0000",
@@ -3556,6 +3558,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-06-03 03:00:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2025-06-03 01:46:03 +0000"
@@ -3583,6 +3591,12 @@
   "minecraft:recipes/combat/netherite_sword_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-03 01:46:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-06-03 03:13:54 +0000"
     },
     "done": true
   },
@@ -3625,6 +3639,12 @@
   "minecraft:nether/loot_bastion": {
     "criteria": {
       "loot_bastion_bridge": "2025-06-03 02:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-06-03 03:00:30 +0000"
     },
     "done": true
   },
@@ -3682,9 +3702,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-06-03 02:59:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_pickaxe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-03 01:46:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-06-03 03:00:30 +0000"
     },
     "done": true
   },
