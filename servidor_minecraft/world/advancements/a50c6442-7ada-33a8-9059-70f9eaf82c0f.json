@@ -3780,6 +3780,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-03 23:36:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/furnace_minecart": {
     "criteria": {
       "has_minecart": "2025-06-03 23:26:14 +0000"
@@ -3789,6 +3795,12 @@
   "minecraft:recipes/transportation/hopper_minecart": {
     "criteria": {
       "has_minecart": "2025-06-03 23:26:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-06-03 23:36:34 +0000"
     },
     "done": true
   },
