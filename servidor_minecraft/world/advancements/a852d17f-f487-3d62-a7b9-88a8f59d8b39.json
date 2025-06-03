@@ -2241,6 +2241,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:59:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
       "has_smooth_stone": "2025-06-02 23:24:22 +0000"
@@ -2268,6 +2274,12 @@
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2025-06-02 22:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-03 03:52:52 +0000"
     },
     "done": true
   },
@@ -2313,6 +2325,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:59:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_shovel_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-02 22:47:56 +0000"
@@ -2328,6 +2346,18 @@
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-02 22:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-06-03 03:52:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-06-03 04:09:23 +0000"
     },
     "done": true
   },
@@ -2355,6 +2385,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:59:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/mangrove_fence": {
     "criteria": {
       "has_planks": "2025-06-03 00:36:09 +0000"
@@ -2373,6 +2409,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:57:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2025-06-03 00:21:34 +0000"
@@ -2388,6 +2430,12 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-06-03 00:47:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:59:59 +0000"
     },
     "done": true
   },
@@ -2445,9 +2493,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:57:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/mangrove_trapdoor": {
     "criteria": {
       "has_planks": "2025-06-03 00:36:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:59:59 +0000"
     },
     "done": true
   },
@@ -2463,6 +2523,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-03 03:52:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
       "has_rabbit": "2025-06-03 01:27:36 +0000"
@@ -2475,6 +2541,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-03 03:52:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/loot_bastion": {
     "criteria": {
       "loot_bastion_other": "2025-06-03 02:15:10 +0000"
@@ -2484,6 +2556,12 @@
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2025-06-03 00:47:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:57:45 +0000"
     },
     "done": true
   },
@@ -2511,6 +2589,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-03 03:52:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:59:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-03 03:52:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/mangrove_button": {
     "criteria": {
       "has_planks": "2025-06-03 00:36:09 +0000"
@@ -2526,6 +2622,12 @@
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2025-06-03 00:47:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:57:45 +0000"
     },
     "done": true
   },
@@ -2553,6 +2655,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:57:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_wood": {
     "criteria": {
       "has_log": "2025-06-03 00:17:17 +0000"
@@ -2562,6 +2670,12 @@
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2025-06-03 00:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-03 03:52:52 +0000"
     },
     "done": true
   },
@@ -2580,6 +2694,12 @@
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2025-06-02 22:45:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:59:59 +0000"
     },
     "done": true
   },
@@ -2613,6 +2733,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:57:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-06-02 23:53:22 +0000"
@@ -2625,9 +2751,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-03 03:52:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:59:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-06-03 04:09:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-03 03:52:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mangrove_slab": {
     "criteria": {
       "has_planks": "2025-06-03 00:36:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-06-03 03:52:52 +0000"
     },
     "done": true
   },
@@ -2649,6 +2805,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:59:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/suspicious_stew_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2025-06-03 00:09:57 +0000"
@@ -2664,6 +2826,12 @@
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2025-06-03 00:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:57:45 +0000"
     },
     "done": true
   },
@@ -2685,6 +2853,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:57:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-03 03:57:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2025-06-02 23:53:22 +0000"
@@ -2694,6 +2874,12 @@
   "minecraft:recipes/combat/netherite_helmet_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-02 22:47:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2025-06-03 04:09:23 +0000"
     },
     "done": true
   },

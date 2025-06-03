@@ -3490,6 +3490,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-06-03 03:51:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-06-03 03:38:02 +0000"
@@ -3511,6 +3517,12 @@
   "minecraft:recipes/combat/netherite_helmet_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-03 03:16:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2025-06-03 03:51:29 +0000"
     },
     "done": true
   },

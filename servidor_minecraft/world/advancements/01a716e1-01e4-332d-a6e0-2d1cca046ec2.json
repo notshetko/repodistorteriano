@@ -3769,6 +3769,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-06-03 03:59:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2025-06-03 02:21:30 +0000"
@@ -3805,6 +3811,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-06-03 03:59:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-06-03 03:51:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2025-06-03 03:00:30 +0000"
@@ -3832,6 +3850,12 @@
   "minecraft:recipes/combat/netherite_helmet_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-03 01:46:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2025-06-03 03:51:01 +0000"
     },
     "done": true
   },
