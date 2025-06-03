@@ -301,11 +301,13 @@
       "cooked_beef": "2025-06-01 03:36:55 +0000",
       "chorus_fruit": "2025-06-01 20:34:54 +0000",
       "beef": "2025-06-01 02:43:45 +0000",
+      "baked_potato": "2025-06-03 01:10:34 +0000",
       "melon_slice": "2025-06-01 04:03:09 +0000",
       "porkchop": "2025-06-01 02:08:36 +0000",
       "tropical_fish": "2025-06-01 03:13:47 +0000",
       "apple": "2025-06-01 05:20:54 +0000",
-      "potato": "2025-06-03 00:07:30 +0000"
+      "potato": "2025-06-03 00:07:30 +0000",
+      "rabbit": "2025-06-03 01:27:40 +0000"
     },
     "done": false
   },
@@ -707,6 +709,7 @@
       "minecraft:phantom": "2025-06-02 23:42:51 +0000",
       "minecraft:wither_skeleton": "2025-06-01 23:37:18 +0000",
       "minecraft:ravager": "2025-06-01 04:11:22 +0000",
+      "minecraft:husk": "2025-06-03 01:33:45 +0000",
       "minecraft:shulker": "2025-06-01 20:41:19 +0000",
       "minecraft:piglin": "2025-06-01 04:36:58 +0000",
       "minecraft:enderman": "2025-06-01 04:43:52 +0000",
@@ -2307,6 +2310,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-06-03 01:27:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-02 22:47:56 +0000"
@@ -2433,6 +2442,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-06-03 01:27:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/mangrove_fence_gate": {
     "criteria": {
       "has_planks": "2025-06-03 00:36:09 +0000"
@@ -2457,6 +2472,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-06-03 01:27:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2025-06-03 00:21:34 +0000"
@@ -2466,6 +2487,12 @@
   "minecraft:recipes/redstone/mangrove_button": {
     "criteria": {
       "has_planks": "2025-06-03 00:36:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-06-03 01:27:36 +0000"
     },
     "done": true
   },
