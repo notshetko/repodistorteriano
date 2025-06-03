@@ -2095,10 +2095,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-06-01 04:36:57 +0000",
       "minecraft:nether_wastes": "2025-06-01 04:35:06 +0000",
+      "minecraft:soul_sand_valley": "2025-06-03 02:20:46 +0000",
       "minecraft:basalt_deltas": "2025-06-01 04:22:31 +0000",
       "minecraft:warped_forest": "2025-06-01 04:50:02 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
@@ -3600,6 +3601,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-06-03 02:21:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_hoe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-03 01:46:03 +0000"
@@ -3627,6 +3634,12 @@
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2025-06-03 01:44:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-06-03 02:21:30 +0000"
     },
     "done": true
   },

@@ -176,8 +176,10 @@
       "minecraft:blaze": "2025-06-01 04:29:41 +0000",
       "minecraft:skeleton": "2025-06-01 02:14:58 +0000",
       "minecraft:phantom": "2025-06-01 07:10:01 +0000",
+      "minecraft:zombified_piglin": "2025-06-03 02:17:01 +0000",
       "minecraft:ravager": "2025-06-01 04:10:17 +0000",
       "minecraft:cave_spider": "2025-06-02 23:36:33 +0000",
+      "minecraft:piglin": "2025-06-03 02:16:47 +0000",
       "minecraft:enderman": "2025-06-01 04:43:38 +0000",
       "minecraft:magma_cube": "2025-06-03 02:03:56 +0000",
       "minecraft:spider": "2025-06-01 02:34:55 +0000",
@@ -1904,10 +1906,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-06-01 04:42:11 +0000",
       "minecraft:nether_wastes": "2025-06-01 04:35:11 +0000",
+      "minecraft:soul_sand_valley": "2025-06-03 02:19:29 +0000",
       "minecraft:basalt_deltas": "2025-06-01 04:23:19 +0000",
       "minecraft:warped_forest": "2025-06-01 04:42:54 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/root": {
     "criteria": {
@@ -3481,6 +3484,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-06-03 02:16:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-06-03 02:10:27 +0000"
@@ -3535,6 +3544,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2025-06-03 02:15:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-06-03 02:16:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-06-03 01:55:24 +0000"
@@ -3559,6 +3580,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-06-03 02:21:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-06-03 02:10:27 +0000"
@@ -3568,6 +3595,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-06-03 02:10:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-03 02:15:58 +0000"
     },
     "done": true
   },
@@ -3592,6 +3625,18 @@
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2025-06-03 01:55:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-06-03 02:21:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-06-03 02:20:39 +0000"
     },
     "done": true
   },
