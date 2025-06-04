@@ -3062,6 +3062,18 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-06-04 04:00:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-06-04 04:11:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pale_oak_slab": {
     "criteria": {
       "has_planks": "2025-06-04 04:39:01 +0000"
@@ -3077,12 +3089,6 @@
   "minecraft:recipes/redstone/pale_oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-06-04 04:39:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-06-04 04:00:10 +0000"
     },
     "done": true
   },
@@ -3110,18 +3116,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2025-06-04 05:35:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2025-06-04 05:04:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/pale_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-06-04 04:39:01 +0000"
@@ -3134,15 +3128,21 @@
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
+  "minecraft:adventure/shoot_arrow": {
     "criteria": {
-      "traded": "2025-06-04 04:11:45 +0000"
+      "shot_arrow": "2025-06-04 05:04:05 +0000"
     },
     "done": true
   },
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2025-06-04 05:04:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-06-04 05:35:44 +0000"
     },
     "done": true
   },
