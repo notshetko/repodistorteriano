@@ -2610,15 +2610,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
+  "minecraft:recipes/building_blocks/pale_oak_planks": {
     "criteria": {
-      "has_stone": "2025-06-04 05:49:23 +0000"
+      "has_log": "2025-06-04 05:40:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pale_oak_slab": {
+  "minecraft:recipes/building_blocks/pale_oak_wood": {
     "criteria": {
-      "has_planks": "2025-06-04 05:52:10 +0000"
+      "has_log": "2025-06-04 05:40:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-06-04 05:45:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-06-04 05:49:23 +0000"
     },
     "done": true
   },
@@ -2628,45 +2640,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/pale_oak_door": {
-    "criteria": {
-      "has_planks": "2025-06-04 05:52:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/pale_oak_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-06-04 05:52:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-06-04 05:49:23 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/pale_oak_button": {
-    "criteria": {
-      "has_planks": "2025-06-04 05:52:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-06-04 05:49:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/pale_oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-06-04 05:52:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pale_oak_fence": {
-    "criteria": {
-      "has_planks": "2025-06-04 05:52:10 +0000"
     },
     "done": true
   },
@@ -2682,12 +2664,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pale_oak_stairs": {
-    "criteria": {
-      "has_planks": "2025-06-04 05:52:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2025-06-04 05:49:23 +0000"
@@ -2697,12 +2673,6 @@
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-06-04 05:49:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pale_oak_planks": {
-    "criteria": {
-      "has_log": "2025-06-04 05:40:41 +0000"
     },
     "done": true
   },
@@ -2730,30 +2700,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/pale_oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-06-04 05:52:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pale_oak_sign": {
-    "criteria": {
-      "has_planks": "2025-06-04 05:52:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pale_oak_wood": {
-    "criteria": {
-      "has_log": "2025-06-04 05:40:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2025-06-04 05:45:47 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-06-04 05:49:23 +0000"
@@ -2763,6 +2709,60 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2025-06-04 05:49:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_slab": {
+    "criteria": {
+      "has_planks": "2025-06-04 05:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/pale_oak_door": {
+    "criteria": {
+      "has_planks": "2025-06-04 05:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/pale_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-04 05:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/pale_oak_button": {
+    "criteria": {
+      "has_planks": "2025-06-04 05:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/pale_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-04 05:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pale_oak_fence": {
+    "criteria": {
+      "has_planks": "2025-06-04 05:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-04 05:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/pale_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-04 05:52:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pale_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-06-04 05:52:10 +0000"
     },
     "done": true
   },
