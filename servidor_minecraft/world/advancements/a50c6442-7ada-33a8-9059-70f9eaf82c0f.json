@@ -3823,5 +3823,17 @@
     },
     "done": true
   },
+  "vanilla_refresh:player/store_deaths_initial": {
+    "criteria": {
+      "s": "2025-06-04 02:00:45 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/tick": {
+    "criteria": {
+      "s": "2025-06-04 02:00:45 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4325
 }

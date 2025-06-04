@@ -3860,9 +3860,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/chest_minecart": {
+  "minecraft:recipes/food/suspicious_stew_from_poppy": {
     "criteria": {
-      "has_minecart": "2025-06-04 01:36:09 +0000"
+      "has_poppy": "2025-06-04 01:34:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-06-04 01:34:31 +0000"
     },
     "done": true
   },
@@ -3890,18 +3896,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/furnace_minecart": {
-    "criteria": {
-      "has_minecart": "2025-06-04 01:36:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/hopper_minecart": {
-    "criteria": {
-      "has_minecart": "2025-06-04 01:36:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/red_candle": {
     "criteria": {
       "has_red_dye": "2025-06-04 01:34:38 +0000"
@@ -3920,21 +3914,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/suspicious_stew_from_poppy": {
-    "criteria": {
-      "has_poppy": "2025-06-04 01:34:31 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
     "criteria": {
       "has_red_dye": "2025-06-04 01:34:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_poppy": {
-    "criteria": {
-      "has_poppy": "2025-06-04 01:34:31 +0000"
     },
     "done": true
   },
@@ -3944,21 +3926,81 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/tnt_minecart": {
-    "criteria": {
-      "has_minecart": "2025-06-04 01:36:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
     "criteria": {
       "has_rose_red": "2025-06-04 01:34:38 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-06-04 01:36:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-06-04 01:36:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2025-06-04 01:36:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-06-04 01:36:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2025-06-04 01:36:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-06-04 01:52:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-06-04 01:52:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-06-04 01:52:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
+    "criteria": {
+      "has_wildflowers": "2025-06-04 01:54:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-06-04 01:58:51 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/store_deaths_initial": {
+    "criteria": {
+      "s": "2025-06-04 02:00:45 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/tick": {
+    "criteria": {
+      "s": "2025-06-04 02:00:45 +0000"
     },
     "done": true
   },

@@ -470,7 +470,8 @@
     "criteria": {
       "cooked_porkchop": "2025-06-03 00:41:07 +0000",
       "bread": "2025-06-03 01:18:16 +0000",
-      "rotten_flesh": "2025-06-03 00:47:12 +0000"
+      "rotten_flesh": "2025-06-03 00:47:12 +0000",
+      "carrot": "2025-06-04 01:52:16 +0000"
     },
     "done": false
   },
@@ -1302,15 +1303,63 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-06-04 01:46:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2025-06-04 01:48:30 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dispenser": {
+  "minecraft:husbandry/tame_an_animal": {
     "criteria": {
-      "has_bow": "2025-06-04 01:46:52 +0000"
+      "tamed_animal": "2025-06-04 01:52:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2025-06-04 01:52:56 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-06-04 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-06-04 01:54:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-06-04 01:58:09 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/store_deaths_initial": {
+    "criteria": {
+      "s": "2025-06-04 02:00:45 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/tick": {
+    "criteria": {
+      "s": "2025-06-04 02:00:45 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/fall_high": {
+    "criteria": {
+      "requirement": "2025-06-04 02:00:51 +0000"
     },
     "done": true
   },
