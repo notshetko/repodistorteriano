@@ -687,6 +687,7 @@
       "cooked_beef": "2025-06-01 02:31:44 +0000",
       "chorus_fruit": "2025-06-01 20:32:41 +0000",
       "baked_potato": "2025-06-01 03:02:19 +0000",
+      "beef": "2025-06-04 22:41:30 +0000",
       "melon_slice": "2025-06-01 03:45:12 +0000",
       "cooked_chicken": "2025-06-01 19:00:22 +0000",
       "poisonous_potato": "2025-06-03 00:38:58 +0000",
@@ -1244,6 +1245,7 @@
       "minecraft:creeper": "2025-06-01 19:18:11 +0000",
       "minecraft:evoker": "2025-06-04 03:22:16 +0000",
       "minecraft:phantom": "2025-06-02 23:32:09 +0000",
+      "minecraft:zombified_piglin": "2025-06-04 22:39:40 +0000",
       "minecraft:witch": "2025-06-03 01:40:47 +0000",
       "minecraft:wither_skeleton": "2025-06-02 23:13:02 +0000",
       "minecraft:husk": "2025-06-01 02:55:05 +0000",
@@ -3810,6 +3812,12 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2025-06-04 06:04:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-06-04 22:42:29 +0000"
     },
     "done": true
   },
