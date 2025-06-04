@@ -747,3 +747,17 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 [23:29:06] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
 [23:33:17] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
 [23:33:34] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
+[23:34:14] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> valiste vrg
+[23:38:23] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
+[23:38:28] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
+[23:39:04] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
+[23:39:08] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
+[23:40:19] [Server thread/INFO]: [[☠] YerKite: Teleported [☠] Randomsiosonso to 2410.426235, 150.000000, -355.284406]
+[23:40:22] [Server thread/INFO]: [☠] Randomsiosonso fell from a high place
+[23:41:19] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=221, y=65, z=-410} iw{x=281, y=67, z=-447}
+[23:41:24] [Server thread/WARN]: AllHailLelouch69 moved too quickly! -15.455495387444444,6.727144169086245,6.963708403697808
+[23:41:49] [Server thread/WARN]: AllHailLelouch69 moved too quickly! -14.955828321362787,9.359648802698842,2.76653482738692
+[23:41:57] [Server thread/INFO]: [Not Secure] <[☠] AllHailLelouch69> quien es el pemdejo qanda recargando chunks
+[23:42:14] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=301, y=66, z=-453} iw{x=285, y=69, z=-454}
+[23:42:29] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
+[23:43:22] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
