@@ -51,3 +51,15 @@
 [00:35:18] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=372, y=14, z=89} iw{x=371, y=14, z=89}
 [00:35:53] [Server thread/INFO]: [☠] Randomsiosonso tried to swim in lava
 [00:36:43] [Server thread/INFO]: [☠] Kuzzpijon burned to death
+[00:41:27] [Server thread/INFO]: [☠] Preguntitas has made the advancement [Stone Age]
+[00:41:58] [Server thread/WARN]: YerKite was kicked for floating too long!
+[00:41:58] [Server thread/INFO]: YerKite lost connection: Flying is not enabled on this server
+[00:41:58] [Server thread/INFO]: [☠] YerKite left the game
+[00:42:18] [Server thread/INFO]: YerKite[/127.139.233.255:45075] logged in with entity id 32962 at (2440.56757578044, 64.16610926093821, -262.3768676045482)
+[00:42:18] [Server thread/INFO]: [☠] YerKite joined the game
+[00:45:19] [Server thread/WARN]: YerKite was kicked for floating too long!
+[00:45:19] [Server thread/INFO]: YerKite lost connection: Flying is not enabled on this server
+[00:45:19] [Server thread/INFO]: [☠] YerKite left the game
+[00:45:19] [Server thread/WARN]: handleDisconnection() called twice
+[00:45:26] [Server thread/INFO]: YerKite[/127.139.233.255:38027] logged in with entity id 36548 at (2478.3465097580256, 64.00133597911214, -290.38252334869804)
+[00:45:26] [Server thread/INFO]: [☠] YerKite joined the game
