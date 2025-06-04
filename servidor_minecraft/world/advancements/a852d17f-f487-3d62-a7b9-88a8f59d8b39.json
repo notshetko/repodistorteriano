@@ -2908,5 +2908,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-06-04 00:44:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-06-04 00:44:14 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4325
 }
