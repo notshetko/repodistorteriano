@@ -402,6 +402,7 @@
       "cooked_beef": "2025-06-01 07:28:07 +0000",
       "chorus_fruit": "2025-06-01 23:06:49 +0000",
       "beef": "2025-06-01 02:53:50 +0000",
+      "baked_potato": "2025-06-03 23:45:56 +0000",
       "melon_slice": "2025-06-01 03:28:52 +0000",
       "porkchop": "2025-06-01 03:13:18 +0000",
       "tropical_fish": "2025-06-01 02:33:49 +0000",
@@ -3801,6 +3802,12 @@
   "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
     "criteria": {
       "has_eye_armor_trim_smithing_template": "2025-06-03 23:36:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-06-03 23:52:48 +0000"
     },
     "done": true
   },
