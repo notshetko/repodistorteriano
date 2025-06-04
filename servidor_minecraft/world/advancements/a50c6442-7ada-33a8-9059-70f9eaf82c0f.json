@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:badlands": "2025-06-01 04:15:17 +0000",
+      "minecraft:cold_ocean": "2025-06-04 05:48:56 +0000",
       "minecraft:beach": "2025-06-01 03:13:12 +0000",
       "minecraft:dark_forest": "2025-06-01 02:11:09 +0000",
       "minecraft:forest": "2025-06-01 03:17:24 +0000",
@@ -181,14 +182,17 @@
       "minecraft:hoglin": "2025-06-03 02:40:42 +0000",
       "minecraft:cave_spider": "2025-06-02 23:36:33 +0000",
       "minecraft:piglin": "2025-06-03 02:16:47 +0000",
+      "minecraft:vindicator": "2025-06-04 02:30:06 +0000",
       "minecraft:enderman": "2025-06-01 04:43:38 +0000",
       "minecraft:magma_cube": "2025-06-03 02:03:56 +0000",
       "minecraft:spider": "2025-06-01 02:34:55 +0000",
       "minecraft:piglin_brute": "2025-06-03 02:13:52 +0000",
+      "minecraft:vex": "2025-06-04 05:04:14 +0000",
       "minecraft:zombie": "2025-06-01 02:28:25 +0000",
       "minecraft:creeper": "2025-06-01 02:35:55 +0000",
       "minecraft:drowned": "2025-06-01 20:19:55 +0000",
-      "minecraft:zombie_villager": "2025-06-02 23:20:55 +0000"
+      "minecraft:zombie_villager": "2025-06-02 23:20:55 +0000",
+      "minecraft:evoker": "2025-06-04 05:04:50 +0000"
     },
     "done": false
   },
@@ -407,7 +411,8 @@
       "porkchop": "2025-06-01 03:13:18 +0000",
       "tropical_fish": "2025-06-01 02:33:49 +0000",
       "golden_carrot": "2025-06-03 02:48:24 +0000",
-      "apple": "2025-06-01 20:35:04 +0000"
+      "apple": "2025-06-01 20:35:04 +0000",
+      "carrot": "2025-06-04 03:22:31 +0000"
     },
     "done": false
   },
@@ -3823,15 +3828,93 @@
     },
     "done": true
   },
-  "vanilla_refresh:player/store_deaths_initial": {
+  "minecraft:recipes/building_blocks/terracotta": {
     "criteria": {
-      "s": "2025-06-04 02:00:45 +0000"
+      "has_clay_block": "2025-06-04 03:11:27 +0000"
     },
     "done": true
   },
-  "vanilla_refresh:player/tick": {
+  "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
-      "s": "2025-06-04 02:00:45 +0000"
+      "has_blaze_powder": "2025-06-04 04:34:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-06-04 04:34:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-06-04 04:34:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-06-04 04:42:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-06-04 04:59:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-06-04 04:59:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2025-06-04 04:59:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-06-04 05:21:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-06-04 05:09:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-06-04 05:03:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2025-06-04 06:13:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-06-04 05:03:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-06-04 05:09:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-06-04 05:05:27 +0000"
     },
     "done": true
   },
