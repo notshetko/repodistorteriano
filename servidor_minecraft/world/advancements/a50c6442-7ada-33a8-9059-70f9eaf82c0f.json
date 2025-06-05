@@ -27,6 +27,7 @@
       "minecraft:birch_forest": "2025-06-01 02:06:33 +0000",
       "minecraft:savanna": "2025-06-01 04:14:36 +0000",
       "minecraft:wooded_badlands": "2025-06-01 04:15:42 +0000",
+      "minecraft:bamboo_jungle": "2025-06-05 01:58:55 +0000",
       "minecraft:plains": "2025-06-01 03:51:36 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-06-01 07:55:20 +0000",
       "minecraft:pale_garden": "2025-06-03 00:31:23 +0000"
@@ -3921,9 +3922,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-06-05 00:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
     },
     "done": true
   },
@@ -3939,15 +3964,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/purple_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_diamond_block": "2025-06-05 01:38:05 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/pink_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-06-05 00:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
     },
     "done": true
   },
@@ -3963,15 +4018,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-06-05 02:10:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
     "criteria": {
       "has_coal_ore": "2025-06-05 00:59:29 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/raw_gold": {
     "criteria": {
       "has_raw_gold_block": "2025-06-05 01:10:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
     },
     "done": true
   },
@@ -3984,6 +4081,12 @@
   "minecraft:nether/netherite_armor": {
     "criteria": {
       "netherite_armor": "2025-06-05 00:47:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_shulker_box": {
+    "criteria": {
+      "has_shulker_box": "2025-06-05 01:55:58 +0000"
     },
     "done": true
   },
