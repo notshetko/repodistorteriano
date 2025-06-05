@@ -178,7 +178,9 @@
       "minecraft:skeleton": "2025-06-01 02:14:58 +0000",
       "minecraft:phantom": "2025-06-01 07:10:01 +0000",
       "minecraft:zombified_piglin": "2025-06-03 02:17:01 +0000",
+      "minecraft:wither_skeleton": "2025-06-05 00:02:02 +0000",
       "minecraft:ravager": "2025-06-01 04:10:17 +0000",
+      "minecraft:ghast": "2025-06-05 00:00:21 +0000",
       "minecraft:hoglin": "2025-06-03 02:40:42 +0000",
       "minecraft:cave_spider": "2025-06-02 23:36:33 +0000",
       "minecraft:piglin": "2025-06-03 02:16:47 +0000",
@@ -3915,6 +3917,12 @@
   "minecraft:recipes/building_blocks/chiseled_deepslate": {
     "criteria": {
       "has_cobbled_deepslate_slab": "2025-06-04 06:13:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-06-05 00:00:21 +0000"
     },
     "done": true
   },
