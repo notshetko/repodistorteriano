@@ -352,3 +352,14 @@
 [02:38:31] [Server thread/INFO]: Randomsiosonso lost connection: Disconnected
 [02:38:31] [Server thread/INFO]: [☠] Randomsiosonso left the game
 [02:38:38] [Server thread/WARN]: Vorpixel_MG moved too quickly! -7.999040487859361,-0.7883143065313476,-6.960034089187843
+[02:39:02] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
+[02:39:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[02:39:32] [Server thread/INFO]: [[☠] YerKite: Gamerule randomTickSpeed is now set to: 3]
+[02:40:58] [Server thread/WARN]: Vorpixel_MG moved too quickly! -6.627949031118305,-1.4553749264957787,-7.832132810461644
+[02:46:05] [Server thread/INFO]: YerKite lost connection: Disconnected
+[02:46:05] [Server thread/INFO]: [☠] YerKite left the game
+[02:48:14] [Server thread/INFO]: Kuzzpijon lost connection: Disconnected
+[02:48:14] [Server thread/INFO]: [☠] Kuzzpijon left the game
+[02:48:35] [Server thread/INFO]: Vorpixel_MG lost connection: Disconnected
+[02:48:35] [Server thread/INFO]: [☠] Vorpixel_MG left the game
+[02:49:35] [Server thread/INFO]: Server empty for 60 seconds, pausing
