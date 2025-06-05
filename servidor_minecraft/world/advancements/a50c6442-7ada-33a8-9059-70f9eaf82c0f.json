@@ -3933,6 +3933,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-06-05 01:49:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_diamond_block": "2025-06-05 01:38:05 +0000"
@@ -3942,6 +3948,12 @@
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-06-05 00:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-06-05 01:49:12 +0000"
     },
     "done": true
   },

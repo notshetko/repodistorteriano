@@ -4191,9 +4191,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-06-05 01:50:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/get_wither_skull": {
     "criteria": {
       "wither_skull": "2025-06-05 01:11:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-06-05 01:51:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-06-05 01:50:11 +0000"
     },
     "done": true
   },
