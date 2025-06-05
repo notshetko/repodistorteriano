@@ -3821,6 +3821,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-06-04 23:29:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-06-04 23:29:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2025-06-04 23:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2025-06-04 23:47:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2025-06-04 23:53:28 +0000"
@@ -3830,12 +3854,6 @@
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2025-06-04 23:53:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2025-06-04 23:29:49 +0000"
     },
     "done": true
   },
@@ -3863,12 +3881,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
-    "criteria": {
-      "has_wildflowers": "2025-06-05 00:08:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2025-06-04 23:53:28 +0000"
@@ -3887,18 +3899,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/quartz": {
-    "criteria": {
-      "has_nether_quartz_ore": "2025-06-04 23:47:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cartography_table": {
-    "criteria": {
-      "has_paper": "2025-06-04 23:29:49 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2025-06-04 23:53:28 +0000"
@@ -3911,9 +3911,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/quartz_from_blasting": {
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
     "criteria": {
-      "has_nether_quartz_ore": "2025-06-04 23:47:05 +0000"
+      "has_wildflowers": "2025-06-05 00:08:36 +0000"
     },
     "done": true
   },
