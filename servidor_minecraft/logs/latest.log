@@ -666,3 +666,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 [16:44:47] [Server thread/INFO]: brxner0[/127.130.35.228:59363] logged in with entity id 5963 at (2444.7634650227164, 63.0, -281.54076667787473)
 [16:44:47] [Server thread/INFO]: [☠] brxner0 joined the game
 [18:08:44] [Server thread/INFO]: [☠] brxner0 tried to swim in lava
+[18:31:04] [Server thread/INFO]: brxner0 lost connection: Disconnected
+[18:31:04] [Server thread/INFO]: [☠] brxner0 left the game
+[18:32:04] [Server thread/INFO]: Server empty for 60 seconds, pausing
