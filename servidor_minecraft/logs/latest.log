@@ -660,3 +660,8 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 [16:06:06] [Server thread/INFO]: Server empty for 60 seconds, pausing
 [16:07:50] [Server thread/INFO]: brxner0[/127.130.35.228:50713] logged in with entity id 69 at (2359.6920382110866, 62.9375, -271.3786934178546)
 [16:07:50] [Server thread/INFO]: [☠] brxner0 joined the game
+[16:38:59] [Server thread/INFO]: brxner0 lost connection: Disconnected
+[16:38:59] [Server thread/INFO]: [☠] brxner0 left the game
+[16:39:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:44:47] [Server thread/INFO]: brxner0[/127.130.35.228:59363] logged in with entity id 5963 at (2444.7634650227164, 63.0, -281.54076667787473)
+[16:44:47] [Server thread/INFO]: [☠] brxner0 joined the game
