@@ -356,15 +356,16 @@
       "minecraft:pillager": "2025-06-04 02:24:06 +0000",
       "minecraft:blaze": "2025-06-06 00:35:26 +0000",
       "minecraft:skeleton": "2025-06-03 01:21:59 +0000",
+      "minecraft:witch": "2025-06-06 02:01:12 +0000",
+      "minecraft:wither_skeleton": "2025-06-06 00:59:46 +0000",
+      "minecraft:ravager": "2025-06-04 02:30:33 +0000",
       "minecraft:piglin": "2025-06-06 00:51:11 +0000",
       "minecraft:vindicator": "2025-06-04 02:27:36 +0000",
       "minecraft:magma_cube": "2025-06-04 02:41:27 +0000",
       "minecraft:spider": "2025-06-03 00:54:03 +0000",
-      "minecraft:wither_skeleton": "2025-06-06 00:59:46 +0000",
       "minecraft:zombie": "2025-06-03 00:37:16 +0000",
       "minecraft:creeper": "2025-06-04 02:03:31 +0000",
-      "minecraft:drowned": "2025-06-05 23:53:57 +0000",
-      "minecraft:ravager": "2025-06-04 02:30:33 +0000"
+      "minecraft:drowned": "2025-06-05 23:53:57 +0000"
     },
     "done": false
   },
@@ -2440,6 +2441,12 @@
   "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
       "ancient_debris": "2025-06-06 00:38:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-06-06 02:02:26 +0000"
     },
     "done": true
   },
