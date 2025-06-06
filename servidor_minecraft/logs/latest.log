@@ -863,3 +863,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 [03:34:34] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> cual
 [03:34:42] [Server thread/INFO]: [Not Secure] <[☠] brxner0> la q esta al fondo
 [03:34:47] [Server thread/INFO]: [☠] Kuzzpijon drowned
+[03:38:25] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> weno se acabo para mi el mc, continua trabajando bruno, bye
+[03:38:26] [Server thread/INFO]: Kuzzpijon lost connection: Disconnected
+[03:38:26] [Server thread/INFO]: [☠] Kuzzpijon left the game
+[03:45:31] [Server thread/INFO]: brxner0 lost connection: Disconnected
+[03:45:31] [Server thread/INFO]: [☠] brxner0 left the game
+[03:46:31] [Server thread/INFO]: Server empty for 60 seconds, pausing
