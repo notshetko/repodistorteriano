@@ -671,3 +671,10 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 [18:32:04] [Server thread/INFO]: Server empty for 60 seconds, pausing
 [20:18:44] [Server thread/INFO]: Kuzzpijon[/127.115.168.57:45373] logged in with entity id 26247 at (2369.745947701486, 66.0, -335.78709726168034)
 [20:18:45] [Server thread/INFO]: [☠] Kuzzpijon joined the game
+[20:32:20] [Server thread/INFO]: Villager cru['Mason'/29992, l='ServerLevel[world]', x=3045.71, y=63.00, z=292.90] died, message: 'Mason was slain by [☠] Kuzzpijon'
+[20:32:24] [Server thread/INFO]: Villager cru['Villager'/29993, l='ServerLevel[world]', x=3052.43, y=63.56, z=282.42] died, message: 'Villager was slain by [☠] Kuzzpijon'
+[20:35:48] [Server thread/INFO]: Villager cru['Armorer'/30003, l='ServerLevel[world]', x=3067.34, y=63.13, z=306.19] died, message: 'Armorer was slain by [☠] Kuzzpijon using [Picudo]'
+[20:41:52] [Server thread/INFO]: [☠] Kuzzpijon tried to swim in lava
+[20:48:32] [Server thread/INFO]: Kuzzpijon lost connection: Disconnected
+[20:48:32] [Server thread/INFO]: [☠] Kuzzpijon left the game
+[20:49:32] [Server thread/INFO]: Server empty for 60 seconds, pausing
