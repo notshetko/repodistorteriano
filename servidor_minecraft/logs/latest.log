@@ -1,6 +1,6 @@
-[01:44:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:44:57] [ServerMain/INFO]: Loaded 1373 recipes
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/north
+[16:04:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:04:49] [ServerMain/INFO]: Loaded 1373 recipes
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/north
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -17,7 +17,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:check
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -34,7 +34,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/glass_spotted/through_glass
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/glass_spotted/through_glass
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:air_blocks' at position 23: ...ock ~ ~ ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -51,7 +51,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/glass_spotted/english_sign
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/glass_spotted/english_sign
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 56: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/25] at position 47: .../number/25<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -68,7 +68,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 56
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:main/20tick
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:main/20tick
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 19: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/ghost_miner_chance] at position 350: ...ner_chance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -85,7 +85,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 19
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/chances/1_common
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/chances/1_common
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/is_night_check] at position 107: ...ight_check<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -102,7 +102,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/dreadful_donation/donate
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/dreadful_donation/donate
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / watching:events/dreadful_donation/english] at position 135: ...on/english<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -119,7 +119,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/crimson_curse/try_curse
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/crimson_curse/try_curse
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/crimson_curse_chance] at position 58: ...rse_chance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -136,7 +136,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/chances/2_uncommon
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/chances/2_uncommon
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/is_night_check] at position 107: ...ight_check<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -153,7 +153,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:main/ticks/leafless_check
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:main/ticks/leafless_check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/leafless_grove/in_plains_check] at position 98: ...ains_check<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -170,7 +170,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/setup/select_skin
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/setup/select_skin
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Malformed 'minecraft:custom_model_data' component: 'Not a map: 1350001' at position 179: ...odel_data=<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -187,7 +187,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/50] at position 68: .../number/50<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -204,7 +204,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/block_detection/placed_torch
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/block_detection/placed_torch
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 8: Unknown block tag 'watching:torches' at position 63: ...ock ~ ~ ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -221,7 +221,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 8:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/burning_base/try_burn
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/burning_base/try_burn
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/burning_base_chance] at position 57: ...ase_chance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -238,7 +238,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:main/ticks/20ticks/logged_markers
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:main/ticks/20ticks/logged_markers
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/door_ghost_chance] at position 149: ...ost_chance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -255,7 +255,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/setup/ground_correction
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/setup/ground_correction
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown block tag 'watching:spawning_raycast/no_col_blocks' at position 27: ...~ ~-0.1 ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -272,7 +272,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/ghost_miner/place_blocks
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/ghost_miner/place_blocks
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/50] at position 47: .../number/50<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -289,7 +289,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/pathfinding
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/pathfinding
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:air_blocks' at position 32: ... ^.2 ^2.2 <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -306,7 +306,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:main/ticks/herobrine
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:main/ticks/herobrine
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 26: Unknown block tag 'watching:spawning_raycast/no_col_blocks' at position 147: ...~ ~-0.1 ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -323,7 +323,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 26
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/glass_spotted/check_if_seen
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/glass_spotted/check_if_seen
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Unknown block tag 'watching:glass_sight_blocks' at position 81: ...ock ~ ~ ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -340,7 +340,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:main/ticks/20ticks/everyone
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:main/ticks/20ticks/everyone
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:footsteps_blocks' at position 216: ...k ~ ~-1 ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -357,7 +357,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/chilled_candles/try_douse
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/chilled_candles/try_douse
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/chilled_candles_chance] at position 60: ...les_chance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -374,7 +374,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/block_detection/technical/placed_fire/log_marker
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/block_detection/technical/placed_fire/log_marker
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:shrine_center' at position 77: ...k ~ ~-2 ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -391,7 +391,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:main/ticks/torch_check
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:main/ticks/torch_check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:torch_spawn_blocks' at position 55: ...k ~-1 ~ ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -408,7 +408,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/chances/3_rare
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/chances/3_rare
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/is_night_check] at position 107: ...ight_check<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -425,7 +425,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/east
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/east
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -442,7 +442,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/lurking
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/lurking
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown block tag 'watching:glass_sight_blocks' at position 72: ... ~-1 ~ ~1 <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -459,7 +459,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/south
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/south
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -476,7 +476,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/general/slept
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/general/slept
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/sighting_chances/common_sighting_chance_night] at position 244: ...ance_night<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -493,7 +493,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/block_detection/technical/remove_traces
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/block_detection/technical/remove_traces
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:torches' at position 56: ...ock ~ ~ ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -510,7 +510,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/torch_break/try_break
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/torch_break/try_break
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/torch_break_chance] at position 56: ...eak_chance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -527,7 +527,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/creeping
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/creeping
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:glass_sight_blocks' at position 44: ... ^-1 ^ ^1 <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -544,7 +544,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/west
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/west
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -561,7 +561,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/stalking
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/stalking
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown block tag 'watching:glass_sight_blocks' at position 72: ... ~-1 ~ ~1 <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -578,7 +578,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/door_open/open_door
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/door_open/open_door
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/50] at position 74: .../number/50<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -595,7 +595,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/ERROR]: Failed to load function watching:events/dreadful_donation/try_donate
+[16:04:49] [ServerMain/ERROR]: Failed to load function watching:events/dreadful_donation/try_donate
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/dreadful_donation_chance] at position 62: ...ion_chance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -612,260 +612,51 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[01:44:57] [ServerMain/INFO]: Loaded 1484 advancements
-[01:44:58] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[01:44:58] [Server thread/INFO]: Loading properties
-[01:44:58] [Server thread/INFO]: Default game type: SURVIVAL
-[01:44:58] [Server thread/INFO]: Generating keypair
-[01:44:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:44:58] [Server thread/INFO]: Using epoll channel type
-[01:44:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:44:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:44:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:44:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:44:59] [Server thread/INFO]: Preparing level "world"
-[01:44:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:45:11] [Server thread/INFO]: Time elapsed: 11845 ms
-[01:45:11] [Server thread/INFO]: Done (12.593s)! For help, type "help"
-[01:46:01] [Server thread/INFO]: Kuzzpijon[/127.115.168.57:56239] logged in with entity id 69 at (5153.536965650356, 65.0, 1081.2696854766177)
-[01:46:01] [Server thread/INFO]: [☠] Kuzzpijon joined the game
-[01:49:02] [Server thread/INFO]: brxner0[/127.130.35.228:48527] logged in with entity id 1360 at (508.35990314579925, 14.0, -17.30000001192093)
-[01:49:02] [Server thread/INFO]: [☠] brxner0 joined the game
-[01:49:32] [Server thread/INFO]: [Not Secure] <[☠] brxner0> oal
-[01:49:34] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ol
-[01:49:40] [Server thread/INFO]: [Not Secure] <[☠] brxner0> dios
-[01:49:43] [Server thread/INFO]: [Not Secure] <[☠] brxner0> me puse otra textura
-[01:49:48] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> q usas
-[01:49:48] [Server thread/INFO]: [Not Secure] <[☠] brxner0> y el netherrack se ve feito kaksakjs
-[01:53:10] [Server thread/INFO]: [Not Secure] <[☠] brxner0> tengo
-[01:53:14] [Server thread/INFO]: [Not Secure] <[☠] brxner0> 4 escombros
-[01:53:15] [Server thread/INFO]: [Not Secure] <[☠] brxner0> kakajsj
-[01:53:30] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ya te alcanza para al menos un pico
-[01:53:33] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> pero necesitas una plantilla
-[01:53:35] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> llego y te doy
-[01:55:21] [Server thread/INFO]: [Not Secure] <[☠] brxner0> trajiste aldeanos?
-[01:55:27] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> traigo auno medio muerto
-[01:55:33] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> pero estoy lejisimos igual
-[01:55:46] [Server thread/INFO]: [Not Secure] <[☠] brxner0> metelo a la granja de hierro sin terminar kakajj
-[01:56:03] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> si se me muere antes tendre q volver lptm
-[01:56:08] [Server thread/INFO]: [☠] brxner0 tried to swim in lava
-[01:56:11] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> xdd
-[01:56:13] [Server thread/INFO]: [Not Secure] <[☠] brxner0> xd
-[01:59:06] [Server thread/INFO]: [Not Secure] <[☠] brxner0> por dond queda la aldea
-[01:59:09] [Server thread/INFO]: [Not Secure] <[☠] brxner0> t ayudo a traer
-[01:59:19] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> esta a como 5km
-[01:59:25] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -10.169317070251964,0.0,-2.167454799088432
-[01:59:25] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -10.560274329291133,0.0,-2.251950601165504
-[01:59:25] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -10.951226758443227,0.0,-2.3364762662617977
-[01:59:25] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -11.342174840698135,0.0,-2.4210288080745386
-[01:59:25] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -11.733119010745213,0.0,-2.5056055389314906
-[01:59:25] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -12.124059659804516,0.0,-2.5902040399276984
-[01:59:47] [Server thread/INFO]: [Not Secure] <[☠] brxner0> qn fue el q hizo este portal al cielo xd
-[01:59:57] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> hubieran hecho un portal a todas la aldeas
-[02:00:17] [Server thread/INFO]: [Not Secure] <[☠] brxner0> hay q relectar obsidiana
-[02:00:24] [Server thread/INFO]: [Not Secure] <[☠] brxner0> creo q tenemos para hacerla
-[02:00:27] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> las putas islas me bloquean el camino
-[02:01:26] [Server thread/INFO]: [☠] brxner0 was slain by Drowned
-[02:02:26] [Server thread/INFO]: [☠] brxner0 has made the advancement [Hot Stuff]
-[02:02:40] [Server thread/INFO]: [☠] brxner0 burned to death
-[02:02:43] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -8.810397744674901,0.0,-5.526014776294119
-[02:02:43] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -9.14925919639336,0.0,-5.738553806151344
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -10.169305910040748,0.0,-2.178338321247793
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -10.560573291529636,0.0,-2.2614368441491024
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -10.952200482786338,0.0,-2.3426139120633707
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -11.344409244485178,0.0,-2.420188867916238
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -11.737340711423258,0.0,-2.492129890816045
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -12.130972245102384,0.0,-2.556140540542117
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -12.525040030603577,0.0,-2.609749300290275
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -12.918972312054393,0.0,-2.650396781722975
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -13.311834315063152,0.0,-2.675518679860488
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -13.702291484462421,0.0,-2.6826440750360803
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -14.088589269154454,0.0,-2.6694879954875432
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -14.468556069496572,0.0,-2.634051185279816
-[02:03:32] [Server thread/WARN]: Pale Oak Boat (vehicle of Kuzzpijon) moved too quickly! -14.840097171918842,0.0,-2.5752219039877673
-[02:04:33] [Server thread/INFO]: [☠] brxner0 tried to swim in lava
-[02:04:47] [Server thread/INFO]: [Not Secure] <[☠] brxner0> nos burlamos todos d la muerte a este punto
-[02:04:56] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> no puedo saliririri
-[02:04:58] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> mucha isla
-[02:05:50] [Server thread/INFO]: [☠] brxner0 burned to death
-[02:07:45] [Server thread/INFO]: [Not Secure] <[☠] brxner0> pq hay otro portal aca
-[02:07:51] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> es paraq otro lado
-[02:07:51] [Server thread/INFO]: [Not Secure] <[☠] brxner0> medio inutil
-[02:09:52] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ll,egue por fin
-[02:09:57] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> el aldeano tiene 2 corazones
-[02:10:05] [Server thread/INFO]: [Not Secure] <[☠] brxner0> xd
-[02:10:30] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> la cosa sera subirlo ora
-[02:11:03] [Server thread/INFO]: [Not Secure] <[☠] brxner0> cañita d pescar
-[02:12:28] [Server thread/INFO]: [Not Secure] <[☠] brxner0> tenes
-[02:12:29] [Server thread/INFO]: [Not Secure] <[☠] brxner0> skin
-[02:12:33] [Server thread/INFO]: [Not Secure] <[☠] brxner0> te veo con una kskajaj
-[02:12:49] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> antes tenia a yujabaja
-[02:12:56] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> y ahora me puse una y me la tomo como otra
-[02:14:34] [Server thread/INFO]: [Not Secure] <[☠] brxner0> tenes hierro para tolvas?
-[02:14:51] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> cuanto quieres
-[02:15:19] [Server thread/INFO]: [Not Secure] <[☠] brxner0> y tolvas creo q
-[02:15:33] [Server thread/INFO]: [Not Secure] <[☠] brxner0> 5 mas o menos ksakjaj
-[02:15:42] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> dale
-[02:15:52] [Server thread/INFO]: [Not Secure] <[☠] brxner0> o mas
-[02:15:55] [Server thread/INFO]: [Not Secure] <[☠] brxner0> trae 7
-[02:16:03] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> dpmde andas
-[02:16:08] [Server thread/INFO]: [Not Secure] <[☠] brxner0> alado de la casa d yerko
-[02:17:11] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> se estam uriendo de a poco el aldeano
-[02:17:16] [Server thread/INFO]: [Not Secure] <[☠] brxner0> pq
-[02:17:40] [Server thread/INFO]: [Not Secure] <[☠] brxner0> necesitamos almenos uno mas
-[02:18:17] [Server thread/INFO]: [Not Secure] <[☠] brxner0> coño
-[02:18:21] [Server thread/INFO]: [Not Secure] <[☠] brxner0> 3 tolvas
-[02:22:36] [Server thread/INFO]: [Not Secure] <[☠] brxner0> no hay algun aldeano por ahi?
-[02:22:42] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> nom
-[02:23:40] [Server thread/INFO]: [Not Secure] <[☠] brxner0> neesitamos una vagoneta x
-[02:24:08] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> aca tengo veni
-[02:24:21] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> entro un piglin a nuestro mundo xdd
-[02:24:26] [Server thread/INFO]: [Not Secure] <[☠] brxner0> xd
-[02:25:12] [Server thread/INFO]: [Not Secure] <[☠] brxner0> berga
-[02:25:18] [Server thread/INFO]: [Not Secure] <[☠] brxner0> ya habia uno suelto en un bote kakaaj
-[02:26:08] [Server thread/INFO]: [Not Secure] <[☠] brxner0> pq hay tolvas q no se usan aca
-[02:26:24] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> es de yerk oo de chopo, una de 2
-[02:26:46] [Server thread/INFO]: [Not Secure] <[☠] brxner0> necesitamos 3 camas
-[02:26:48] [Server thread/INFO]: [Not Secure] <[☠] brxner0> laskkajaj
-[02:26:50] [Server thread/INFO]: [Not Secure] <[☠] brxner0> la concha
-[02:27:00] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> agarra las tijeras q tengo en mi cofre
-[02:27:03] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> y anda por ovejas
-[02:27:12] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ando agarrando mas hierro para poner mas golems q protejan a los aldeanos
-[02:28:32] [Server thread/INFO]: [Not Secure] <[☠] brxner0> hijo d perra
-[02:28:34] [Server thread/INFO]: [Not Secure] <[☠] brxner0> se quizo escapar
-[02:30:35] [Server thread/INFO]: [Not Secure] <[☠] brxner0> pasa las tijeras
-[02:30:41] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> esta me meñ cofre
-[02:30:42] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> chico
-[02:31:43] [Server thread/INFO]: [Not Secure] <[☠] brxner0> no veo
-[02:31:58] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> pñero esa es la casa de vorpi gordo
-[02:32:06] [Server thread/INFO]: [Not Secure] <[☠] brxner0> y pq no m dices xd
-[02:32:11] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> pense q sabias
-[02:32:14] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> mi casa es la del frente
-[02:32:39] [Server thread/INFO]: [Not Secure] <[☠] brxner0> garsias
-[02:32:42] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> de nalga
-[02:37:20] [Server thread/INFO]: [Not Secure] <[☠] brxner0> listo
-[02:37:31] [Server thread/INFO]: [Not Secure] <[☠] brxner0> de casualidad no tienen una etiqueta?
-[02:37:40] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ni idea
-[02:38:17] [Server thread/INFO]: [Not Secure] <[☠] brxner0> ocupo un zombi
-[02:42:27] [Server thread/INFO]: [Not Secure] <[☠] brxner0> como hago q cojan
-[02:42:45] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> nomas tenias q poner las camas supongo
-[02:42:47] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> no lo se
-[02:42:50] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> preguntale a yerko
-[02:49:25] [Server thread/INFO]: [Not Secure] <[☠] brxner0> necesitamos poner mas tolvas
-[02:49:29] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> cuantas
-[02:49:31] [Server thread/INFO]: [Not Secure] <[☠] brxner0> es peligroso poner el cofre ahi kakaj
-[02:49:51] [Server thread/INFO]: [Not Secure] <[☠] brxner0> necesitariamos 4 mas
-[02:50:10] [Server thread/INFO]: [Not Secure] <[☠] brxner0> SALI
-[02:50:11] [Server thread/INFO]: [Not Secure] <[☠] brxner0> O
-[02:50:12] [Server thread/INFO]: [Not Secure] <[☠] brxner0> SALIO
-[02:50:19] [Server thread/INFO]: [Not Secure] <[☠] brxner0> re diminuto
-[02:50:24] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> re wachin
-[02:50:25] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> toma
-[02:50:35] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> arma las tolvas
-[02:50:41] [Server thread/INFO]: [Not Secure] <[☠] brxner0> va a faltar mas kakakaj
-[02:51:11] [Server thread/INFO]: [Not Secure] <[☠] brxner0> trata d meterle la pala a la tierra q armas
-[02:51:22] [Server thread/INFO]: [Not Secure] <[☠] brxner0> quita eso pq el golem puede spawnear ahi kakajsj
-[02:51:32] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> nooo
-[02:51:37] [Server thread/INFO]: [Not Secure] <[☠] brxner0> te voy a matar
-[02:51:55] [Server thread/INFO]: [Not Secure] <[☠] brxner0> ah no
-[02:51:59] [Server thread/INFO]: [Not Secure] <[☠] brxner0> necesitan dormir kaskajs
-[02:52:03] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> no van a dejar a su hijillo
-[02:52:26] [Server thread/INFO]: [Not Secure] <[☠] brxner0> listo
-[02:54:01] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=2351, y=60, z=-272} iw{x=2348, y=62, z=-272}
-[02:54:40] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=2346, y=60, z=-272} iw{x=2347, y=61, z=-273}
-[02:57:55] [Server thread/INFO]: [Not Secure] <[☠] brxner0> no esta
-[02:57:58] [Server thread/INFO]: [Not Secure] <[☠] brxner0> funcionandoksakkaj
-[02:58:03] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> por
-[02:58:06] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> fiojate bien los tutos
-[02:58:10] [Server thread/INFO]: [Not Secure] <[☠] brxner0> lo q cae a las tolvas no llega al cofre
-[02:58:16] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> porque los habras puesto mal
-[02:58:19] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> las tol,vas
-[03:00:57] [Server thread/INFO]: [Not Secure] <[☠] brxner0> listo
-[03:03:28] [Server thread/INFO]: [Not Secure] <[☠] brxner0> ya puse bien el cofrexd
-[03:03:34] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ora si vinee lo chido
-[03:03:43] [Server thread/INFO]: [Not Secure] <[☠] brxner0> falta q crezca el wachin
-[03:03:46] [Server thread/INFO]: [Not Secure] <[☠] brxner0> y traer un zombi
-[03:04:26] [Server thread/INFO]: [Not Secure] <[☠] brxner0> quiero hacer
-[03:04:29] [Server thread/INFO]: [Not Secure] <[☠] brxner0> una granja de endermans
-[03:04:30] [Server thread/INFO]: [Not Secure] <[☠] brxner0> en el end
-[03:04:35] [Server thread/INFO]: [Not Secure] <[☠] brxner0> pero hay q matar al dragon primero kaskajs
-[03:05:41] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> eso va a ser mucho mas adelante
-[03:05:58] [Server thread/INFO]: [Not Secure] <[☠] brxner0> XD
-[03:06:13] [Server thread/INFO]: [☠] Kuzzpijon tried to swim in lava
-[03:09:25] [Server thread/INFO]: [Not Secure] <[☠] brxner0> cuando sea d noche hay q traer un zombi
-[03:09:32] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> normal
-[03:09:33] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ?
-[03:10:03] [Server thread/INFO]: [Not Secure] <[☠] brxner0> xd
-[03:10:08] [Server thread/INFO]: [Not Secure] <[☠] brxner0> listo
-[03:10:10] [Server thread/INFO]: [Not Secure] <[☠] brxner0> ya crecio
-[03:11:38] [Server thread/INFO]: [Not Secure] <[☠] brxner0> hay q tirarle cosas para ver si agarra
-[03:11:42] [Server thread/INFO]: [Not Secure] <[☠] brxner0> para q no despawnee despues
-[03:11:52] [Server thread/INFO]: [Not Secure] <[☠] brxner0> alguna carne podrida
-[03:12:17] [Server thread/INFO]: [Not Secure] <[☠] brxner0> no habia un zombi por aca?
-[03:12:20] [Server thread/INFO]: [Not Secure] <[☠] brxner0> habia escuchado antes ksakjs
-[03:12:25] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> yo tego carne podrida
-[03:12:29] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> a quien se la tiro
-[03:13:15] [Server thread/INFO]: [Not Secure] <[☠] brxner0> dejalo ahi xd
-[03:13:33] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> atengo 2 zombies
-[03:13:44] [Server thread/INFO]: [Not Secure] <[☠] brxner0> ahi
-[03:13:49] [Server thread/INFO]: [Not Secure] <[☠] brxner0> ah no
-[03:14:08] [Server thread/INFO]: [Not Secure] <[☠] brxner0> mata a uno nomas kaksj
-[03:14:57] [Server thread/INFO]: [Not Secure] <[☠] brxner0> alejate y deja q me siga kakakjs
-[03:15:35] [Server thread/INFO]: [Not Secure] <[☠] brxner0> bueno pasa por la entrada
-[03:15:39] [Server thread/INFO]: [Not Secure] <[☠] brxner0> y deja q se suba al bote
-[03:15:40] [Server thread/INFO]: [Not Secure] <[☠] brxner0> kakajsa
-[03:15:54] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ahi taaa
-[03:16:12] [Server thread/INFO]: [Not Secure] <[☠] brxner0> va a despawnear despuesd un buen ratote
-[03:16:17] [Server thread/INFO]: [Not Secure] <[☠] brxner0> pero por mientrask aksjsj
-[03:16:43] [Server thread/INFO]: [Not Secure] <[☠] brxner0> la concha
-[03:18:16] [Server thread/INFO]: [Not Secure] <[☠] brxner0> no creo q haga falta la trampilla o si?
-[03:18:48] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ese hijo de perra lo logro
-[03:18:53] [Server thread/INFO]: [Not Secure] <[☠] brxner0> lo logre
-[03:19:05] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> procuremos que ya no spawneen fuera
-[03:19:08] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> bien
-[03:19:17] [Server thread/INFO]: [Not Secure] <[☠] brxner0> pasa q capaz spawnea encima de la trampilla
-[03:20:41] [Server thread/INFO]: [Not Secure] <[☠] brxner0> xd
-[03:20:42] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> xDD
-[03:21:05] [Server thread/INFO]: [☠] Kuzzpijon tried to swim in lava
-[03:23:17] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> p´q spawean ahiii
-[03:24:26] [Server thread/INFO]: [Not Secure] <[☠] brxner0> tape todo con tierra
-[03:24:28] [Server thread/INFO]: [Not Secure] <[☠] brxner0> lo mas q pude
-[03:25:04] [Server thread/INFO]: [Not Secure] <[☠] brxner0> hierrito facil
-[03:25:14] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ya casi un stack
-[03:27:00] [Server thread/INFO]: [Not Secure] <[☠] brxner0> ahora herrero pa vender el hierrito
-[03:27:48] [Server thread/INFO]: [☠] Kuzzpijon tried to swim in lava
-[03:27:51] [Server thread/INFO]: [Not Secure] <[☠] brxner0> xd
-[03:34:26] [Server thread/INFO]: [Not Secure] <[☠] brxner0> nose como funciona esta granja de aldeanos
-[03:34:34] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> cual
-[03:34:42] [Server thread/INFO]: [Not Secure] <[☠] brxner0> la q esta al fondo
-[03:34:47] [Server thread/INFO]: [☠] Kuzzpijon drowned
-[03:38:25] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> weno se acabo para mi el mc, continua trabajando bruno, bye
-[03:38:26] [Server thread/INFO]: Kuzzpijon lost connection: Disconnected
-[03:38:26] [Server thread/INFO]: [☠] Kuzzpijon left the game
-[03:45:31] [Server thread/INFO]: brxner0 lost connection: Disconnected
-[03:45:31] [Server thread/INFO]: [☠] brxner0 left the game
-[03:46:31] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:04:49] [ServerMain/INFO]: Loaded 1484 advancements
+[16:04:50] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[16:04:50] [Server thread/INFO]: Loading properties
+[16:04:50] [Server thread/INFO]: Default game type: SURVIVAL
+[16:04:50] [Server thread/INFO]: Generating keypair
+[16:04:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:04:50] [Server thread/INFO]: Using epoll channel type
+[16:04:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:04:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:04:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:04:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:04:50] [Server thread/INFO]: Preparing level "world"
+[16:04:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:05:06] [Server thread/INFO]: Time elapsed: 14931 ms
+[16:05:06] [Server thread/INFO]: Done (15.939s)! For help, type "help"
+[16:06:06] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:07:50] [Server thread/INFO]: brxner0[/127.130.35.228:50713] logged in with entity id 69 at (2359.6920382110866, 62.9375, -271.3786934178546)
+[16:07:50] [Server thread/INFO]: [☠] brxner0 joined the game
