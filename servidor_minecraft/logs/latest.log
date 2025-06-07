@@ -18,3 +18,4 @@
 [01:16:43] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=192, y=22, z=42} iw{x=191, y=21, z=42}
 [01:16:46] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=194, y=23, z=43} iw{x=194, y=22, z=44}
 [01:16:46] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=194, y=23, z=43} iw{x=194, y=22, z=44}
+[01:50:16] [Server thread/INFO]: There are 1 of a max of 20 players online: [☠] brxner0
