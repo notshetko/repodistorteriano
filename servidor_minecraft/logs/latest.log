@@ -5,3 +5,7 @@
 [00:53:43] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=324, y=82, z=-117} iw{x=323, y=83, z=-118}
 [00:55:51] [Server thread/INFO]: [☠] brxner0 tried to swim in lava
 [01:01:54] [Server thread/INFO]: [☠] brxner0 fell from a high place
+[01:04:20] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=196, y=18, z=70} iw{x=197, y=17, z=70}
+[01:08:38] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=206, y=10, z=52} iw{x=204, y=9, z=55}
+[01:10:49] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=218, y=31, z=5} iw{x=228, y=27, z=39}
+[01:10:50] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=229, y=29, z=39} iw{x=227, y=26, z=39}
