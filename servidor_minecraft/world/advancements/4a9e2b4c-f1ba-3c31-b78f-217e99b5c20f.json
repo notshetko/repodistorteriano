@@ -2952,9 +2952,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2025-06-07 03:45:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
     "criteria": {
       "has_deepslate_tiles": "2025-06-07 03:43:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2025-06-07 03:45:09 +0000"
     },
     "done": true
   },
@@ -2976,9 +2988,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-07 03:50:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2025-06-07 03:43:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-07 03:50:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2025-06-07 03:45:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2025-06-07 03:45:09 +0000"
     },
     "done": true
   },
@@ -2991,6 +3027,18 @@
   "minecraft:recipes/building_blocks/deepslate_tile_slab": {
     "criteria": {
       "has_deepslate_tiles": "2025-06-07 03:43:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-07 03:50:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2025-06-07 03:50:41 +0000"
     },
     "done": true
   },
