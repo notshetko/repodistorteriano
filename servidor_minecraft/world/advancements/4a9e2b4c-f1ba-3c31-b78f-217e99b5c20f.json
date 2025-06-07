@@ -563,16 +563,18 @@
     "criteria": {
       "minecraft:blaze": "2025-06-01 22:43:31 +0000",
       "minecraft:skeleton": "2025-06-01 18:48:38 +0000",
+      "minecraft:witch": "2025-06-01 18:48:08 +0000",
+      "minecraft:wither_skeleton": "2025-06-01 22:45:08 +0000",
+      "minecraft:ghast": "2025-06-07 21:15:27 +0000",
+      "minecraft:shulker": "2025-06-01 21:10:02 +0000",
+      "minecraft:piglin": "2025-06-07 21:16:22 +0000",
       "minecraft:enderman": "2025-06-01 21:01:35 +0000",
       "minecraft:magma_cube": "2025-06-01 22:41:22 +0000",
-      "minecraft:witch": "2025-06-01 18:48:08 +0000",
       "minecraft:spider": "2025-06-01 18:46:22 +0000",
-      "minecraft:wither_skeleton": "2025-06-01 22:45:08 +0000",
       "minecraft:zombie": "2025-06-01 18:46:00 +0000",
       "minecraft:creeper": "2025-06-01 19:56:20 +0000",
       "minecraft:drowned": "2025-06-03 05:10:53 +0000",
-      "minecraft:zombie_villager": "2025-06-01 19:32:55 +0000",
-      "minecraft:shulker": "2025-06-01 21:10:02 +0000"
+      "minecraft:zombie_villager": "2025-06-01 19:32:55 +0000"
     },
     "done": false
   },
@@ -1424,6 +1426,9 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-06-07 21:18:37 +0000",
+      "minecraft:nether_wastes": "2025-06-07 21:14:36 +0000",
+      "minecraft:soul_sand_valley": "2025-06-07 21:14:45 +0000",
       "minecraft:basalt_deltas": "2025-06-01 21:27:53 +0000"
     },
     "done": false
@@ -3051,6 +3056,18 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2025-06-07 04:29:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-07 21:17:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-07 21:17:41 +0000"
     },
     "done": true
   },
