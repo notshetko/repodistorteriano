@@ -1,2 +1,7 @@
 [00:03:14] [Server thread/INFO]: Villager cru['Librarian'/99, l='ServerLevel[world]', x=2438.06, y=62.60, z=-247.16] died, message: 'Librarian was slain by [☠] brxner0'
 [00:52:10] [Server thread/INFO]: [☠] brxner0 was burned to a crisp while fighting Magma Cube
+[00:53:40] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=320, y=87, z=-114} iw{x=322, y=83, z=-117}
+[00:53:40] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=320, y=87, z=-114} iw{x=322, y=83, z=-117}
+[00:53:43] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=324, y=82, z=-117} iw{x=323, y=83, z=-118}
+[00:55:51] [Server thread/INFO]: [☠] brxner0 tried to swim in lava
+[01:01:54] [Server thread/INFO]: [☠] brxner0 fell from a high place
