@@ -9,3 +9,12 @@
 [01:08:38] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=206, y=10, z=52} iw{x=204, y=9, z=55}
 [01:10:49] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=218, y=31, z=5} iw{x=228, y=27, z=39}
 [01:10:50] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=229, y=29, z=39} iw{x=227, y=26, z=39}
+[01:14:17] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=188, y=29, z=37} iw{x=188, y=29, z=38}
+[01:14:40] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=202, y=28, z=44} iw{x=202, y=28, z=43}
+[01:16:42] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=194, y=21, z=41} iw{x=194, y=20, z=41}
+[01:16:43] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=192, y=22, z=42} iw{x=191, y=21, z=42}
+[01:16:43] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=192, y=22, z=42} iw{x=191, y=21, z=42}
+[01:16:43] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=192, y=22, z=42} iw{x=191, y=21, z=42}
+[01:16:43] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=192, y=22, z=42} iw{x=191, y=21, z=42}
+[01:16:46] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=194, y=23, z=43} iw{x=194, y=22, z=44}
+[01:16:46] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=194, y=23, z=43} iw{x=194, y=22, z=44}
