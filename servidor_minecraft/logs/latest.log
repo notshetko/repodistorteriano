@@ -883,3 +883,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 [22:39:19] [Server thread/INFO]: [☠] AllHailLelouch69 fell from a high place
 [22:40:26] [Server thread/WARN]: AllHailLelouch69 moved wrongly!
 [22:41:22] [Server thread/INFO]: [☠] AllHailLelouch69 tried to swim in lava
+[22:51:48] [Server thread/WARN]: AllHailLelouch69 moved wrongly!
