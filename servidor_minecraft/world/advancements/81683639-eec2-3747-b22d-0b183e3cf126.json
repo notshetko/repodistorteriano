@@ -368,7 +368,8 @@
       "minecraft:zombie": "2025-06-03 00:37:16 +0000",
       "minecraft:creeper": "2025-06-04 02:03:31 +0000",
       "minecraft:drowned": "2025-06-05 23:53:57 +0000",
-      "minecraft:zombie_villager": "2025-06-07 21:01:11 +0000"
+      "minecraft:zombie_villager": "2025-06-07 21:01:11 +0000",
+      "minecraft:slime": "2025-06-07 22:17:09 +0000"
     },
     "done": false
   },
@@ -485,6 +486,7 @@
       "cooked_porkchop": "2025-06-03 00:41:07 +0000",
       "bread": "2025-06-03 01:18:16 +0000",
       "rotten_flesh": "2025-06-03 00:47:12 +0000",
+      "cooked_mutton": "2025-06-07 21:56:50 +0000",
       "cooked_beef": "2025-06-07 02:39:29 +0000",
       "baked_potato": "2025-06-05 23:39:58 +0000",
       "carrot": "2025-06-04 01:52:16 +0000"
@@ -2718,6 +2720,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-06-07 22:18:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
       "has_cod": "2025-06-07 21:16:57 +0000"
@@ -2748,6 +2756,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-06-07 22:18:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_banner": {
     "criteria": {
       "has_light_gray_wool": "2025-06-07 21:45:01 +0000"
@@ -2775,6 +2789,12 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2025-06-07 21:44:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-06-07 22:18:23 +0000"
     },
     "done": true
   },
