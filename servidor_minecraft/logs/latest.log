@@ -686,3 +686,14 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5:
 [22:42:50] [Server thread/INFO]: [☠] Syn4281 has made the advancement [Stone Age]
 [22:43:34] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
 [22:43:37] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
+[22:47:02] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
+[22:47:06] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
+[22:47:17] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
+[22:48:11] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
+[22:55:02] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=284, y=15, z=277} iw{x=287, y=16, z=261}
+[22:55:21] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=293, y=12, z=261} iw{x=291, y=15, z=261}
+[22:59:10] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=458, y=16, z=313} iw{x=459, y=15, z=311}
+[23:01:24] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=510, y=15, z=284} iw{x=513, y=14, z=287}
+[23:02:32] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=574, y=18, z=264} iw{x=574, y=17, z=264}
+[23:02:32] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=574, y=18, z=264} iw{x=574, y=17, z=264}
+[23:04:39] [Server thread/INFO]: [☠] Syn4281 has made the advancement [Getting an Upgrade]
