@@ -4090,5 +4090,11 @@
     },
     "done": true
   },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2025-06-08 23:50:40 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4325
 }

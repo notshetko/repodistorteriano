@@ -1,700 +1,78 @@
-[22:04:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:04:23] [ServerMain/INFO]: Loaded 1373 recipes
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/north
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:check
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/glass_spotted/through_glass
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:air_blocks' at position 23: ...ock ~ ~ ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:air_blocks' at position 23: ...ock ~ ~ ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/glass_spotted/english_sign
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 56: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/25] at position 47: .../number/25<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 56: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/25] at position 47: .../number/25<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:main/20tick
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 19: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/ghost_miner_chance] at position 350: ...ner_chance<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 19: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/ghost_miner_chance] at position 350: ...ner_chance<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/chances/1_common
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/is_night_check] at position 107: ...ight_check<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/is_night_check] at position 107: ...ight_check<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/dreadful_donation/donate
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / watching:events/dreadful_donation/english] at position 135: ...on/english<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / watching:events/dreadful_donation/english] at position 135: ...on/english<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/crimson_curse/try_curse
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/crimson_curse_chance] at position 58: ...rse_chance<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/crimson_curse_chance] at position 58: ...rse_chance<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/chances/2_uncommon
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/is_night_check] at position 107: ...ight_check<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/is_night_check] at position 107: ...ight_check<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:main/ticks/leafless_check
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/leafless_grove/in_plains_check] at position 98: ...ains_check<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/leafless_grove/in_plains_check] at position 98: ...ains_check<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/setup/select_skin
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Malformed 'minecraft:custom_model_data' component: 'Not a map: 1350001' at position 179: ...odel_data=<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Malformed 'minecraft:custom_model_data' component: 'Not a map: 1350001' at position 179: ...odel_data=<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/50] at position 68: .../number/50<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/50] at position 68: .../number/50<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/block_detection/placed_torch
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 8: Unknown block tag 'watching:torches' at position 63: ...ock ~ ~ ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 8: Unknown block tag 'watching:torches' at position 63: ...ock ~ ~ ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/burning_base/try_burn
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/burning_base_chance] at position 57: ...ase_chance<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/burning_base_chance] at position 57: ...ase_chance<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:main/ticks/20ticks/logged_markers
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/door_ghost_chance] at position 149: ...ost_chance<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/door_ghost_chance] at position 149: ...ost_chance<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/setup/ground_correction
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown block tag 'watching:spawning_raycast/no_col_blocks' at position 27: ...~ ~-0.1 ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown block tag 'watching:spawning_raycast/no_col_blocks' at position 27: ...~ ~-0.1 ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/ghost_miner/place_blocks
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/50] at position 47: .../number/50<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/50] at position 47: .../number/50<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/pathfinding
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:air_blocks' at position 32: ... ^.2 ^2.2 <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:air_blocks' at position 32: ... ^.2 ^2.2 <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:main/ticks/herobrine
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 26: Unknown block tag 'watching:spawning_raycast/no_col_blocks' at position 147: ...~ ~-0.1 ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 26: Unknown block tag 'watching:spawning_raycast/no_col_blocks' at position 147: ...~ ~-0.1 ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/glass_spotted/check_if_seen
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Unknown block tag 'watching:glass_sight_blocks' at position 81: ...ock ~ ~ ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Unknown block tag 'watching:glass_sight_blocks' at position 81: ...ock ~ ~ ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:main/ticks/20ticks/everyone
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:footsteps_blocks' at position 216: ...k ~ ~-1 ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:footsteps_blocks' at position 216: ...k ~ ~-1 ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/chilled_candles/try_douse
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/chilled_candles_chance] at position 60: ...les_chance<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/chilled_candles_chance] at position 60: ...les_chance<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/block_detection/technical/placed_fire/log_marker
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:shrine_center' at position 77: ...k ~ ~-2 ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:shrine_center' at position 77: ...k ~ ~-2 ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:main/ticks/torch_check
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:torch_spawn_blocks' at position 55: ...k ~-1 ~ ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:torch_spawn_blocks' at position 55: ...k ~-1 ~ ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/chances/3_rare
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/is_night_check] at position 107: ...ight_check<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:checks/is_night_check] at position 107: ...ight_check<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/east
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/lurking
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown block tag 'watching:glass_sight_blocks' at position 72: ... ~-1 ~ ~1 <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown block tag 'watching:glass_sight_blocks' at position 72: ... ~-1 ~ ~1 <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/south
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/general/slept
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/sighting_chances/common_sighting_chance_night] at position 244: ...ance_night<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/sighting_chances/common_sighting_chance_night] at position 244: ...ance_night<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/block_detection/technical/remove_traces
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:torches' at position 56: ...ock ~ ~ ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:torches' at position 56: ...ock ~ ~ ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/torch_break/try_break
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/torch_break_chance] at position 56: ...eak_chance<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/torch_break_chance] at position 56: ...eak_chance<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/creeping
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:glass_sight_blocks' at position 44: ... ^-1 ^ ^1 <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown block tag 'watching:glass_sight_blocks' at position 44: ... ^-1 ^ ^1 <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/run_away_pathfinding/directions/west
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Unknown block tag 'watching:air_blocks' at position 30: ... ~ ~-.1 ~ <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/sightings/spotted/stalking
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown block tag 'watching:glass_sight_blocks' at position 72: ... ~-1 ~ ~1 <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown block tag 'watching:glass_sight_blocks' at position 72: ... ~-1 ~ ~1 <--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/door_open/open_door
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/50] at position 74: .../number/50<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/number/50] at position 74: .../number/50<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/ERROR]: Failed to load function watching:events/dreadful_donation/try_donate
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/dreadful_donation_chance] at position 62: ...ion_chance<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at avu.b(SourceFile:52) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / watching:chances/dreadful_donation_chance] at position 62: ...ion_chance<--[HERE]
-	at hy.a(SourceFile:80) ~[server-1.21.5.jar:?]
-	at amf.a(SourceFile:87) ~[server-1.21.5.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 7 more
-[22:04:23] [ServerMain/INFO]: Loaded 1484 advancements
-[22:04:24] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[22:04:24] [Server thread/INFO]: Loading properties
-[22:04:24] [Server thread/INFO]: Default game type: SURVIVAL
-[22:04:24] [Server thread/INFO]: Generating keypair
-[22:04:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:04:24] [Server thread/INFO]: Using epoll channel type
-[22:04:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:04:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:04:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:04:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:04:24] [Server thread/INFO]: Preparing level "world"
-[22:04:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:04:37] [Server thread/INFO]: Time elapsed: 11251 ms
-[22:04:37] [Server thread/INFO]: Done (12.767s)! For help, type "help"
-[22:05:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:09:36] [Server thread/INFO]: YerKite[/127.139.233.255:59625] logged in with entity id 31 at (2440.3991992294905, 63.0, -290.7248220620007)
-[22:09:36] [Server thread/INFO]: [☠] YerKite joined the game
-[22:13:33] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
-[22:13:44] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
-[22:18:45] [Server thread/INFO]: Syn4281[/127.192.152.74:38545] logged in with entity id 2334 at (268.5, 71.0, -445.5)
-[22:18:45] [Server thread/INFO]: Syn4281 joined the game
-[22:18:55] [Server thread/INFO]: [[☠] YerKite: Added [☠] Syn4281 to team [[HSYM]]]
-[22:19:33] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=0, y=0, z=0} iw{x=270, y=72, z=-454}
-[22:19:33] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=0, y=0, z=0} iw{x=270, y=73, z=-454}
-[22:19:33] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=0, y=0, z=0} iw{x=269, y=72, z=-454}
-[22:19:36] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=0, y=0, z=0} iw{x=270, y=73, z=-455}
-[22:19:46] [Server thread/INFO]: [☠] Syn4281 has made the advancement [We Need to Go Deeper]
-[22:20:46] [Server thread/INFO]: [☠] Syn4281 was doomed to fall
-[22:21:04] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Creative Mode]
-[22:21:11] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
-[22:21:22] [Server thread/INFO]: [☠] Syn4281 has made the advancement [Monster Hunter]
-[22:21:45] [Server thread/INFO]: [☠] Syn4281 was doomed to fall by Magma Cube
-[22:21:49] [Server thread/INFO]: [[☠] YerKite: Teleported [☠] Syn4281 to [☠] YerKite]
-[22:21:52] [Server thread/INFO]: [[☠] YerKite: Teleported [☠] Syn4281 to [☠] YerKite]
-[22:22:02] [Server thread/INFO]: Villager cru['Villager'/61, l='ServerLevel[world]', x=2469.30, y=67.50, z=-277.64] died, message: 'Villager was impaled by Drowned'
-[22:22:17] [Server thread/INFO]: Villager cru['Librarian'/155, l='ServerLevel[world]', x=2450.32, y=63.00, z=-272.30] died, message: 'Librarian was impaled by Drowned'
-[22:22:24] [Server thread/INFO]: Villager cru['Librarian'/151, l='ServerLevel[world]', x=2450.30, y=63.00, z=-274.70] died, message: 'Librarian was impaled by Drowned'
-[22:22:53] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Creative Mode]
-[22:23:01] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
-[22:23:57] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Creative Mode]
-[22:24:16] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
-[22:24:58] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Creative Mode]
-[22:25:00] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
-[22:34:16] [Server thread/INFO]: [☠] Syn4281 has made the advancement [Isn't It Iron Pick]
-[22:34:16] [Server thread/INFO]: [☠] Syn4281 has made the advancement [Acquire Hardware]
-[22:42:24] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
-[22:42:28] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
-[22:42:50] [Server thread/INFO]: [☠] Syn4281 has made the advancement [Stone Age]
-[22:43:34] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
-[22:43:37] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
-[22:47:02] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
-[22:47:06] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
-[22:47:17] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Spectator Mode]
-[22:48:11] [Server thread/INFO]: [[☠] YerKite: Set own game mode to Survival Mode]
-[22:55:02] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=284, y=15, z=277} iw{x=287, y=16, z=261}
-[22:55:21] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=293, y=12, z=261} iw{x=291, y=15, z=261}
-[22:59:10] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=458, y=16, z=313} iw{x=459, y=15, z=311}
-[23:01:24] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=510, y=15, z=284} iw{x=513, y=14, z=287}
-[23:02:32] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=574, y=18, z=264} iw{x=574, y=17, z=264}
-[23:02:32] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=574, y=18, z=264} iw{x=574, y=17, z=264}
-[23:04:39] [Server thread/INFO]: [☠] Syn4281 has made the advancement [Getting an Upgrade]
-[23:15:18] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=575, y=15, z=-177} iw{x=575, y=15, z=-178}
+[00:00:08] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> nop tengo pocion amorcito
+[00:00:17] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> pndjo
+[00:00:20] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> consigue plis
+[00:00:31] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> iria a la trial de la jungla pero ya la vacie toda
+[00:00:36] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> como a la gfa de benchi
+[00:00:38] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> no hay otro
+[00:00:41] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> ño
+[00:00:41] [Server thread/INFO]: [☠] YerKite was slain by Zombie
+[00:00:44] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> xD
+[00:00:44] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> xddd
+[00:01:16] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> we poruq yerko noo tiene coraones
+[00:01:24] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> se los rompio syn
+[00:03:20] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ve y matate unos pillagers random
+[00:03:47] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> tienes cords?
+[00:03:50] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> no
+[00:03:58] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> casi siempre hay a los alrededores
+[00:04:08] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> casi siempre
+[00:04:16] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> que musica d emierrrda
+[00:04:20] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> eh
+[00:04:49] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> casii siempre
+[00:04:55] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> q tiene
+[00:05:05] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> y si no hay
+[00:05:11] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> y...
+[00:05:13] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> busca mas
+[00:05:15] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> q t cuesta
+[00:07:29] [Server thread/INFO]: [[☠] YerKite: Applied effect Hero of the Village to [☠] YerKite]
+[00:07:30] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=2790, y=67, z=-55} iw{x=2793, y=66, z=-54}
+[00:08:00] [Server thread/INFO]: [[☠] YerKite: Applied effect Hero of the Village to [☠] YerKite]
+[00:08:15] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> jaja nmms encontre naufragio
+[00:08:26] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> denme exp q quiero el filo v
+[00:08:51] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> de q sirve el ornamento de costa
+[00:08:56] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> no se
+[00:09:15] [Server thread/INFO]: [[☠] YerKite: Gave 14 experience levels to [☠] YerKite]
+[00:10:17] [Server thread/INFO]: brxner0[/127.130.35.228:41681] logged in with entity id 60915 at (2374.971787601655, 65.0, -275.9519962700976)
+[00:10:17] [Server thread/INFO]: [☠] brxner0 joined the game
+[00:10:33] [Server thread/INFO]: [Not Secure] <[☠] brxner0> ola q hacen
+[00:10:38] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> nada
+[00:10:40] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> buscando pocion
+[00:10:41] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> pa
+[00:10:42] [Server thread/INFO]: [[☠] YerKite: Applied effect Hero of the Village to [☠] YerKite]
+[00:10:43] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> raid
+[00:10:55] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> brux
+[00:10:58] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> cura a tus aldeanos
+[00:11:06] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ya los curamos ayer
+[00:11:10] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> bueno los curo el
+[00:11:11] [Server thread/INFO]: [Not Secure] <[☠] brxner0> q les paso
+[00:11:13] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> neta me lo juras xd
+[00:11:16] [Server thread/INFO]: [Not Secure] <[☠] brxner0> a xd
+[00:11:22] [Server thread/INFO]: [Not Secure] <[☠] YerKite> o/
+[00:11:22] [Server thread/INFO]: [Not Secure] <[☠] brxner0> pndjo
+[00:11:25] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> que haces aki
+[00:11:29] [Server thread/INFO]: [Not Secure] <[☠] brxner0> quita tu netherrack la proxima
+[00:11:31] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> xDDD
+[00:11:34] [Server thread/INFO]: [Not Secure] <[☠] YerKite> mir aw
+[00:11:46] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> se me trabo
+[00:12:04] [Server thread/INFO]: [Not Secure] <[☠] YerKite> PQ ME ANDA TAN MAL EL JUEGO
+[00:12:08] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> xDDD
+[00:12:10] [Server thread/INFO]: [Not Secure] <[☠] brxner0> xdd
+[00:12:19] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> el carbon ahora falta y no sobra
+[00:12:23] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> a que punto hemos llegaod
+[00:12:29] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> hagan granja de carbon bro
+[00:12:41] [Server thread/INFO]: [Not Secure] <[☠] brxner0> yerko
+[00:12:43] [Server thread/INFO]: [Not Secure] <[☠] YerKite> q
+[00:12:44] [Server thread/INFO]: [Not Secure] <[☠] brxner0> mira mi granja d hierro
+[00:12:52] [Server thread/INFO]: [Not Secure] <[☠] Randomsiosonso> estaculero
+[00:13:18] [Server thread/INFO]: [Not Secure] <[☠] brxner0> qn puso kikuo
+[00:13:22] [Server thread/INFO]: [Not Secure] <[☠] YerKite> yo
+[00:13:36] [Server thread/INFO]: [Not Secure] <[☠] YerKite> esta es tuy casa?
+[00:13:42] [Server thread/INFO]: [Not Secure] <[☠] brxner0> es mi minibase
+[00:13:47] [Server thread/INFO]: [Not Secure] <[☠] brxner0> aun no hice casa
+[00:13:59] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> se cree george de la selva el hdp para dormir en la tierra
+[00:14:59] [Server thread/INFO]: [Not Secure] <[☠] brxner0> kuz
+[00:15:01] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> k
+[00:15:02] [Server thread/INFO]: [Not Secure] <[☠] brxner0> prestame plantilla
+[00:15:14] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> ven a tu granja
+[00:15:16] [Server thread/INFO]: [Not Secure] <[☠] YerKite> bruzs
+[00:15:33] [Server thread/INFO]: [Not Secure] <[☠] brxner0> garsias
+[00:15:34] [Server thread/INFO]: [Not Secure] <[☠] Kuzzpijon> trata de duplicarlas
