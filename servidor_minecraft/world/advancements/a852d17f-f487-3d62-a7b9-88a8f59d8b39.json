@@ -3436,15 +3436,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2025-06-09 00:32:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/under_lock_and_key": {
     "criteria": {
       "under_lock_and_key": "2025-06-09 00:33:07 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/mace": {
+  "minecraft:adventure/revaulting": {
     "criteria": {
-      "has_breeze_rod": "2025-06-09 00:32:23 +0000"
+      "revaulting": "2025-06-09 00:37:01 +0000"
     },
     "done": true
   },

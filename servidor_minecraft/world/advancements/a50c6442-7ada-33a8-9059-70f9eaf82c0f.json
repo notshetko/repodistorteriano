@@ -177,27 +177,29 @@
       "minecraft:pillager": "2025-06-01 04:08:21 +0000",
       "minecraft:blaze": "2025-06-01 04:29:41 +0000",
       "minecraft:skeleton": "2025-06-01 02:14:58 +0000",
-      "minecraft:phantom": "2025-06-01 07:10:01 +0000",
-      "minecraft:zombified_piglin": "2025-06-03 02:17:01 +0000",
-      "minecraft:witch": "2025-06-05 01:01:24 +0000",
-      "minecraft:wither_skeleton": "2025-06-05 00:02:02 +0000",
       "minecraft:ravager": "2025-06-01 04:10:17 +0000",
       "minecraft:bogged": "2025-06-09 00:30:14 +0000",
       "minecraft:ghast": "2025-06-05 00:00:21 +0000",
       "minecraft:hoglin": "2025-06-03 02:40:42 +0000",
-      "minecraft:cave_spider": "2025-06-02 23:36:33 +0000",
-      "minecraft:piglin": "2025-06-03 02:16:47 +0000",
       "minecraft:vindicator": "2025-06-04 02:30:06 +0000",
-      "minecraft:enderman": "2025-06-01 04:43:38 +0000",
+      "minecraft:breeze": "2025-06-09 00:40:19 +0000",
       "minecraft:magma_cube": "2025-06-03 02:03:56 +0000",
       "minecraft:spider": "2025-06-01 02:34:55 +0000",
       "minecraft:piglin_brute": "2025-06-03 02:13:52 +0000",
+      "minecraft:creeper": "2025-06-01 02:35:55 +0000",
+      "minecraft:evoker": "2025-06-04 05:04:50 +0000",
+      "minecraft:slime": "2025-06-09 00:34:48 +0000",
+      "minecraft:phantom": "2025-06-01 07:10:01 +0000",
+      "minecraft:zombified_piglin": "2025-06-03 02:17:01 +0000",
+      "minecraft:witch": "2025-06-05 01:01:24 +0000",
+      "minecraft:wither_skeleton": "2025-06-05 00:02:02 +0000",
+      "minecraft:cave_spider": "2025-06-02 23:36:33 +0000",
+      "minecraft:piglin": "2025-06-03 02:16:47 +0000",
+      "minecraft:enderman": "2025-06-01 04:43:38 +0000",
       "minecraft:vex": "2025-06-04 05:04:14 +0000",
       "minecraft:zombie": "2025-06-01 02:28:25 +0000",
-      "minecraft:creeper": "2025-06-01 02:35:55 +0000",
       "minecraft:drowned": "2025-06-01 20:19:55 +0000",
-      "minecraft:zombie_villager": "2025-06-02 23:20:55 +0000",
-      "minecraft:evoker": "2025-06-04 05:04:50 +0000"
+      "minecraft:zombie_villager": "2025-06-02 23:20:55 +0000"
     },
     "done": false
   },
@@ -4091,9 +4093,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2025-06-09 00:39:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_copper_grate": {
     "criteria": {
       "has_waxed_copper_block": "2025-06-09 00:30:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
+    "criteria": {
+      "has_flow_armor_trim_smithing_template": "2025-06-09 00:37:15 +0000"
     },
     "done": true
   },
@@ -4112,6 +4126,12 @@
   "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2025-06-09 00:27:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2025-06-09 00:39:59 +0000"
     },
     "done": true
   },
@@ -4139,15 +4159,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-06-09 00:34:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting": {
     "criteria": {
       "has_waxed_copper_block": "2025-06-09 00:30:09 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2025-06-09 00:39:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2025-06-09 00:27:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper": {
+    "criteria": {
+      "has_waxed_cut_copper_slab": "2025-06-09 00:37:07 +0000"
     },
     "done": true
   },
@@ -4175,6 +4213,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-06-09 00:39:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_cut_copper": {
     "criteria": {
       "has_waxed_copper_block": "2025-06-09 00:30:09 +0000"
@@ -4187,9 +4231,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-06-09 00:39:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-09 00:37:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/under_lock_and_key": {
     "criteria": {
       "under_lock_and_key": "2025-06-09 00:32:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-06-09 00:39:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2025-06-09 00:37:13 +0000"
     },
     "done": true
   },
@@ -4199,9 +4267,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/field_masoned_banner_pattern": {
+    "criteria": {
+      "has_bricks": "2025-06-09 00:39:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate": {
     "criteria": {
       "has_waxed_oxidized_copper": "2025-06-09 00:31:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-06-09 00:39:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-06-09 00:34:52 +0000"
     },
     "done": true
   },
@@ -4238,6 +4324,12 @@
   "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_polished_tuff_stonecutting": {
     "criteria": {
       "has_polished_tuff": "2025-06-09 00:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2025-06-09 00:39:09 +0000"
     },
     "done": true
   },
@@ -4307,6 +4399,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-06-09 00:34:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
     "criteria": {
       "has_waxed_copper_block": "2025-06-09 00:30:09 +0000"
@@ -4328,6 +4426,12 @@
   "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
     "criteria": {
       "has_polished_tuff": "2025-06-09 00:29:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-06-09 00:39:09 +0000"
     },
     "done": true
   },
